@@ -27,7 +27,7 @@ Professional Experience
 
 Employment History
 -------------
-## Sub 6 Limited - Lead Systems Administrator
+### Sub 6 Limited - Lead Systems Administrator
 *Oct 2011 - Sept 2012*
 
 My primary responsibilities at Sub 6 where around leading the sysadmin side of the company.
@@ -46,14 +46,14 @@ A few products/features that come to mind include;
 * MagentoClusterAdmin - A Django based web/API based management interface with Perl scripts to handle updating HAProxy/Pound/Nginx/GlusterFS configurations for a Magento web cluster.
 * Speedyweb - Varnish integration for cPanel to allow automatic updating of rules on new account/IP creation
 
-## Freelance Linux Systems Administrator
+### Freelance Linux Systems Administrator
 During this time I worked for a number of clients, including managed solution provides, SMBs and end users.
 
 This involved managing RHCS based setups running Tomcat for large media companies to handling account migrations, scripting automation and fixing general issues/reaction to monitoring alerts.
 
 I worked an on-call style rotation handling issues as they where escalated up from the NOC after detection though NimBUS/Nagios. This included scripting some extra checks to catch more "edge cases" in the application until the developers could deploy a patched version.
 
-## UKFast - Linux Engineer
+### UKFast - Linux Engineer
 *Feb 2010 – Oct 2010*
 
 During my time at UKFast my main responsibilities where to provide user support, assist with pre-sales, perform server setups and maintain SLAs.
@@ -64,7 +64,7 @@ The work ranged from installing and upgrading software to performing disaster re
 
 I also had to deal with out of hours network and power issues on a datacenter wide scale and during periods of my rota I was solely responsible for resolving alerts as they were triggered and maintaining SLA levels.
 
-## NYCC - Desk side support
+### NYCC - Desk side support
 *Oct 2008 – March 2009*
 
 My main responsibilities at NYCC where around providing 4th line "on site" support to end users. This ranged from debugging software issues, deploying new hardware, doing in-place upgrades etc.
@@ -75,14 +75,14 @@ In order to provide hardware support to the network team, I was also involved wi
 
 Education
 -------------
-## Firebrand Training
+### Firebrand Training
 *2010*
 
 I completed a number of courses at Firebrand to expand my knowledge on computer security and hardware fundamentals.
 
 This resulted in my gaining Comptia A+, CEH and LPIC level 1/2 certifications.
 
-## Rossendale School
+### Rossendale School
 *2002 - 2009*
 
 I completed GCSEs in ICT (A), Mathematics (D) and key skills exams.
