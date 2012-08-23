@@ -28,7 +28,7 @@ Professional Experience
 Employment History
 -------------
 ### Sub 6 Limited - Lead Systems Administrator
-*Oct 2011 - Sept 2012*
+*Oct 2011 - Aug 2012*
 
 My primary responsibilities at Sub 6 where around leading the sysadmin side of the company.
 
