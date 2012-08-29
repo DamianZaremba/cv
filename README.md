@@ -47,6 +47,8 @@ A few products/features that come to mind include;
 * Speedyweb - Varnish integration for cPanel to allow automatic updating of rules on new account/IP creation
 
 ### Freelance Linux Systems Administrator
+*Nov 2010 – Oct 2011*
+
 During this time I worked for a number of clients, including managed solution provides, SMBs and end users.
 
 This involved managing RHCS based setups running Tomcat for large media companies to handling account migrations, scripting automation and fixing general issues/reaction to monitoring alerts.
