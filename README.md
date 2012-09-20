@@ -108,4 +108,4 @@ See Also
 * [GitHub](https://github.com/damianzaremba) - damianzaremba
 * [Last.fm](http://last.fm/user/damianzaremba4) - damianzaremba4
 * [LinkedIn](http://uk.linkedin.com/in/damianzaremba) - damianzaremba
-* [Random Blog](http://damianzaremba.co.uk)
+* [Random Blog](http://damianzaremba.co.uk) - damianzaremba.co.uk
