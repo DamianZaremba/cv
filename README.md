@@ -7,13 +7,13 @@ Damian Zaremba
 damian@damianzaremba.co.uk
 
 Summary
--------------
+-------
 Experienced Linux systems administrator looking for opportunities to further my career where I can expand upon my knowledge and make a difference. I am loyal and committed to any company I work for and have an ability to get the job done under pressure.
 
 What I'm most passionate about is learning and working with cutting edge technologies in order to build awesome solutions. I enjoy designing and building platforms that improve efficiency and that people love to use.
 
 Professional Experience
--------------
+-----------------------
 * Linux administration on RHEL/Debian based distros
 * Application development/scripting as required
 * Hardware/Software/Network troubleshooting
@@ -21,12 +21,19 @@ Professional Experience
 * Designing and implementing redundant architecture
 * Server, application and network monitoring via threshold alerting, graphing and trending.
 * Management of tgtd based SANs
-* Programming in Python, Perl, Bash, C
+* Programming in Python, Perl, Bash
 * Config management via Puppet
 * Authentication/authorization management via LDAP/RADIUS
 
 Employment History
 -------------
+### MUSIC Group - Systems Engineer
+*Oct 2012 - Current*
+
+Building infrastructure to deliver business value via collaboration, technology and automation.
+
+Supporting world-recognized pro audio brands such as MIDAS, Klark Teknik, Turbosound, Behringer and Bugera.
+
 ### Sub 6 Limited - Lead Systems Administrator
 *Oct 2011 - Aug 2012*
 
@@ -94,17 +101,17 @@ In my spare time I also assisted in the network administration, involving a sing
 This involved me writing numerous scripts (bat/vbs) to do simple actions such as mapping drives or configuring proxies via group policy.
 
 References
--------------
+----------
 Available upon request
 
 Misc
--------------
+----
 * Full, clean UK driving license
 * UK passport
 * Availability to work "out of hours" as required
 
 See Also
--------------
+--------
 * [GitHub](https://github.com/damianzaremba) - damianzaremba
 * [Last.fm](http://last.fm/user/damianzaremba4) - damianzaremba4
 * [LinkedIn](http://uk.linkedin.com/in/damianzaremba) - damianzaremba

@@ -1,4 +1,4 @@
-all: pdf html epub latex long
+all: pdf html epub latex
 
 pdf:
 	markdown2pdf README.md -o damianzaremba.pdf
@@ -11,6 +11,3 @@ epub:
 
 latex:
 	pandoc README.md -o damianzaremba.tex
-
-long:
-	make -C longversion
