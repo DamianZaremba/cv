@@ -1,10 +1,5 @@
 Damian Zaremba
 =============
-45 Kayley House, New Hall Lane, Preston, PR1 4DP
-
-+44 (0) 7527 751123
-
-damian@damianzaremba.co.uk
 
 Summary
 -------
