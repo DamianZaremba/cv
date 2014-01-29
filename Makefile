@@ -1,7 +1,7 @@
 all: pdf html epub latex
 
 pdf:
-	markdown2pdf README.md -o damianzaremba.pdf
+	pandoc README.md -o damianzaremba.pdf
 
 html:
 	pandoc README.md -o damianzaremba.html
