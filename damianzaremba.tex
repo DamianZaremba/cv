@@ -13,59 +13,78 @@ Interested in ITIL methodologies for service management, Agile
 methodologies for development life cycle/workflows and software
 testing/building strategies.
 
-Technical goals include attaining CCNA, CCNP, RHCA, RHCDS and RHCSS
-certification as well as learning C and focusing on kernel level
-optimisation/modules.
+Driven to impact change where required and deliver things done properly.
 
-\subsection{Professional Experience}
-
-\begin{itemize}
-\item
-  Linux administration on RHEL/Debian based distros
-\item
-  Application development/scripting
-\item
-  End-to-End troubleshooting
-\item
-  Issue escalation and SLA handling
-\item
-  Designing and implementing redundant architecture
-\item
-  Server, application and network monitoring via threshold alerting,
-  graphing and trending.
-\item
-  Programming in Python, Perl, Bash
-\item
-  Config management via Puppet
-\item
-  Authentication/authorization management via LDAP/RADIUS
-\item
-  Software versioning/build management
-\item
-  System integration
-\end{itemize}
-\subsection{Specialties}
-
-\begin{itemize}
-\item
-  Linux distributions (Red Hat, CentOS, Debian etc)
-\item
-  Software packages such as Apache, Nginx, HAProxy, LVS, KVM, Pacemaker,
-  MySQL, DNS, Exim, Icinga, RANCID, etc.
-\item
-  Solution design
-\item
-  Service monitoring
-\item
-  Metric collection/graphing/trending/reporting
-\item
-  Bespoke configurations including HA and clustering
-\end{itemize}
 \subsection{Employment History}
 
-\subsubsection{MUSIC Group - Systems Engineer}
+\subsubsection{MUSIC Group - Software Engineer (Midas/Klark Teknik)}
 
-\emph{Oct 2012 - Current}
+\emph{July 2013 - Current}
+
+Working on new Midas/Klark Teknik products and supporting
+infrastructure.
+
+\begin{itemize}
+\item
+  Deployed an isolated 3 node (2 HA controllers) Openstack Havana setup
+  using NetApp ONTAP storage.
+\item
+  Designed and implemented a small `collapsed-core' network architecture
+  - using Cisco technologies - to provide an isolated R\&D network,
+  inside an existing (unsecure) corporate network.
+\item
+  Performed data recovery on R\&D servers/data and developed workarounds
+  for internal services during a 4 month long global TECH service
+  failure.
+\item
+  Developed a testing jig for boards using a raspberry PI with GPIO
+  controlled relays, for automated boot loader re-programming and boot
+  timing on changes.
+\item
+  Developed and implemented backup/restore procedure for critical data
+  (source code, tickets, build configurations).
+\item
+  Rearchitected the current 2 server setup (unmonitored, running on raid
+  0, constrained by disk/CPU) into a 3 node Openstack setup and
+  re-purposed older servers (removed from service during a transition
+  from CVS to Git) as disposable build agents.
+\item
+  Implemented configuration management (Puppet, Saltstack) and
+  service/change monitoring (Icinga/Rancid).
+\item
+  Reduced build times and implemented a new strategy for componentised
+  builds.
+\item
+  Designed a framework and strategy for increasing confidence in code
+  and speeding up the release cycle.
+\item
+  Developed software against x86, STM32 and ARM based platforms,
+  including control for switches/FPGAs/DSPs
+\item
+  Exposure to proprietary binary based communications protocols and
+  their pitfalls vs open, standards based communications protocols and
+  their benefits
+\item
+  Performed maintenance on LFS and Ltib systems for building products
+\item
+  Debugged and rectified issues in C++/Python/Perl code and
+  shell/Sed/Awk scripting
+\item
+  Investigated web technologies, updating/deployment methodologies, RFB
+  reverse tunnelling, SELinux and performance analysis/containment.
+\item
+  Utilised kernel features to enhance new products (control groups,
+  SELinux, nftables)
+\item
+  Documented processes for developers (board reprogramming/bootup)
+\item
+  Ported numerous internal apps from x86 to ARM
+\end{itemize}
+
+\subsubsection{MUSIC Group - Systems Engineer (Global Enterprise
+Engineering)}
+
+\emph{Oct 2012 - July 2013}
 
 Supporting world-recognized pro audio brands such as MIDAS, Klark
 Teknik, Turbosound, Behringer and Bugera.
@@ -116,6 +135,44 @@ Teknik, Turbosound, Behringer and Bugera.
 \item
   Implemented RANCID based backups for network device configs
 \end{itemize}
+
+\subsubsection{Freelancer: Architecture, Infrastructure, Linux
+Deployment, Network Design, Software Development}
+
+\emph{Nov 2008 -- Current}
+
+End to end management and design of infrastructure, heavily Linux and
+Network focused.
+
+Provide software development as required (Python, Perl, PHP, C, C++,
+Shell, node.js, Django, Ruby), all custom work - some opensource.
+Primary focus on Python (including Django), Perl, Shell and C++.
+
+Deployed Linux solutions at edge and core, covering all aspects from
+SOHO up to multi datacenter. Areas including PXE, kickstart/preseed,
+Puppet, Cobbler, Saltstack, asset tracking, lifecycle management,
+testing, custom Linux distributions and bespoke auditing tools.
+
+Designed networks to specification (cost or functionality), familiar
+with large layer 2/3 deployments including STP, DTP, LACP protocols,
+vlan tagging, trunking, layer 2 protections (arp, dhcp, bpdu guard),
+static routing, dynamic routing (RIP, OSPF, EIGRP, BGP), MPLS (P2P and
+`cloud'), QOS, ASA firewalls, ACL management, redundancy, performance
+optimisation, asynchronous routing, remote troubleshooting, issue
+diagnostics (layer 1-8) and vendor interaction/management (global).
+
+Re-designed and migrated data-centre architecture for hosting providers
+and global companies including co-ordination with onsite resources for
+physical relocation, design and implementation of redundant core and
+distribution network services, designing SPOFs out, isolating management
+connectivity into segregated failure domains (physically, up to a
+separate BGP mix with different routes), design of troubleshooting tools
+for helpdesk staff, auditing equipment, implementation of off-site
+backup arrangements, low level migration tools (redirection of network
+traffic to holding servers, DDOS protection, distributed caching,
+automated null-routing tools, automated firewall rule distribution
+tools), power usage profiling and cost reduction.
+
 \subsubsection{Sub 6 Limited - Lead Systems Administrator}
 
 \emph{Oct 2011 - Aug 2012}
@@ -157,6 +214,7 @@ Teknik, Turbosound, Behringer and Bugera.
 \item
   Developed numerous custom solutions for clients
 \end{itemize}
+
 \subsubsection{AllGamer, LLC - Freelance systems administrator and
 developer}
 
@@ -177,6 +235,7 @@ developer}
 \item
   Programming of system utilities
 \end{itemize}
+
 \subsubsection{Calyx - Unix/Linux systems administrator}
 
 \emph{April 2011 - May 2011}
@@ -201,29 +260,7 @@ developer}
   Implemented process monitoring of background workers to ensure a
   responsive application
 \end{itemize}
-\subsubsection{Freelance Linux Systems Administrator}
 
-\emph{Nov 2010 -- Oct 2011}
-
-\begin{itemize}
-\item
-  Managed a Red Hat cluster suite setup
-\item
-  Handled custom Tomcat/Apache based applications
-\item
-  Wrote NimBUS/Nagios based monitoring checks
-\item
-  Managed multiple account migrations
-\item
-  Automated away process
-\item
-  On-call for escalated issues
-\item
-  Worked in a structured ITIL based framework for handling change
-\item
-  Developed monitoring for application edge cases by working closely
-  with 3rd parties
-\end{itemize}
 \subsubsection{CloudFlux - Systems Engineer/Developer}
 
 \emph{October 2010 -- May 2011}
@@ -246,6 +283,7 @@ developer}
 \item
   Migration of SVN to Git
 \end{itemize}
+
 \subsubsection{UKFast - Linux Engineer}
 
 \emph{Feb 2010 -- Oct 2010}
@@ -274,6 +312,7 @@ developer}
   Solely responsible for investigating and resolving alerts during out
   of hours
 \end{itemize}
+
 \subsubsection{Rawr IRC - Developer}
 
 \emph{December 2009 -- October 2010}
@@ -290,6 +329,7 @@ developer}
 \item
   Managed 2 UnrealIRCd nodes
 \end{itemize}
+
 \subsubsection{Xinos - Network Administrator}
 
 \emph{January 2009 -- February 2010}
@@ -310,6 +350,7 @@ developer}
 \item
   Wrote custom resource accounting and file scanning services
 \end{itemize}
+
 \subsubsection{NYCC - Desk side support}
 
 \emph{Oct 2008 -- March 2009}
@@ -330,6 +371,7 @@ developer}
 \item
   Working across the county individually and as part of a team
 \end{itemize}
+
 \subsection{Education}
 
 \subsubsection{Firebrand Training}
@@ -350,7 +392,7 @@ I completed GCSEs in ICT (A), Mathematics (D) and key skills exams.
 
 In my spare time I also assisted in the network administration,
 involving a single windows server 2003 DC, two Linux servers and around
-50--70 desktops running a mix of windows 2000 and XP pro.
+50-70 desktops running a mix of windows 2000 and XP pro.
 
 This involved me writing numerous scripts (bat/vbs) to do simple actions
 such as mapping drives or configuring proxies via group policy.
@@ -359,7 +401,7 @@ such as mapping drives or configuring proxies via group policy.
 
 \subsubsection{The Scout Association}
 
-\emph{December 2006 - Current}
+\emph{December 2006 - January 2014}
 
 \begin{itemize}
 \item
@@ -377,6 +419,7 @@ such as mapping drives or configuring proxies via group policy.
 \item
   Assist local camp sites, district, county and groups at large events
 \end{itemize}
+
 \subsection{References}
 
 Available upon request
@@ -389,6 +432,7 @@ Available upon request
 \item
   UK passport
 \end{itemize}
+
 \subsection{See Also}
 
 \begin{itemize}
