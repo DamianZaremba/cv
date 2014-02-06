@@ -1,10 +1,6 @@
 Damian Zaremba
 =============
 
-07538 067570
-
-111 Hudson Court, 54 Broadway, Salford, M50 2UF
-
 Summary
 -------
 Experienced, driven and professional Linux Systems Engineer, constantly looking
