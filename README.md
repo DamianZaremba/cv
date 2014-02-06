@@ -1,6 +1,10 @@
 Damian Zaremba
 =============
 
+07538 067570
+
+111 Hudson Court, 54 Broadway, Salford, M50 2UF
+
 Summary
 -------
 Experienced, driven and professional Linux Systems Engineer, constantly looking
@@ -29,7 +33,7 @@ Working on new Midas/Klark Teknik products and supporting infrastructure.
 * Developed and implemented backup/restore procedure for critical data (source code, tickets, build configurations).
 * Rearchitected the current 2 server set-up (unmonitored, running on raid 0, constrained by disk/CPU) into a 3 node Openstack set-up and re-purposed older servers (removed from service during a transition from CVS to Git) as disposable build agents.
 * Implemented configuration management (Puppet, Salt stack) and service/change monitoring (Icinga/Rancid).
-* Reduced build times and implemented a new strategy for multicomponent builds.
+* Reduced build times and implemented a new strategy for multi component builds.
 * Designed a framework and strategy for increasing confidence in code and speeding up the release cycle.
 * Developed software against x86, STM32 and ARM based platforms, including control for switches/FPGAs/DSPs
 * Exposure to proprietary binary based communications protocols and their pitfalls vs open, standards based communications protocols and their benefits
@@ -39,6 +43,7 @@ Working on new Midas/Klark Teknik products and supporting infrastructure.
 * Utilised kernel features to enhance new products (control groups, SELinux, nftables)
 * Documented processes for developers (board reprogramming/power up/hardware interfaces)
 * Ported numerous internal applications from x86 to ARM
+* Managed Atlassian developer tools (Jira, Stash, Bamboo, Fisheye)
 
 ### MUSIC Group - Systems Engineer (Global Enterprise Engineering)
 *Oct 2012 - July 2013*
