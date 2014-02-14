@@ -237,8 +237,3 @@ See Also
 * [Last.fm](http://last.fm/user/damianzaremba4) - damianzaremba4
 * [LinkedIn](http://uk.linkedin.com/in/damianzaremba) - damianzaremba
 * [Website](http://damianzaremba.co.uk) - damianzaremba.co.uk
-
-
-Other Formats
--------------
-Available on [GitHub](https://github.com/DamianZaremba/cv)
