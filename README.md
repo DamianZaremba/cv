@@ -238,7 +238,7 @@ Available upon request.
 
 Misc
 ----
-* Full UK driving license.
+* Full UK driving licence.
 * UK passport.
 * Available out of hours.
 
