@@ -15,7 +15,7 @@ development life cycle/work flows and software testing/building strategies.
 
 Driven to impact change where required and deliver things done properly.
 
-Not interested in red tape or project management that gets in the way of progress.
+Not interested in red tape or project management which gets in the way of progress.
 
 Employment History
 ------------------
@@ -43,7 +43,8 @@ into a 3 node Openstack setup and re-purposed older servers (removed from servic
 from CVS to Git) as disposable build agents.
 * Implemented configuration management (Puppet), service orchestration (Salt stack) and service/change
 monitoring (Icinga/Rancid).
-* Reduced build times and implemented a new strategy for multi component builds.
+* Reduced build times (14 hours to 40min) and implemented a new strategy for multi component builds.
+* Drove continuous deployment methodologies into new product design
 * Designed a framework and strategy for increasing confidence in code and speeding up the release cycle.
 * Developed software against x86, STM32 and ARM based platforms, including control for switches/FPGAs/DSPs
 * Exposure to proprietary binary based communications protocols and their pitfalls vs open, standards
@@ -241,10 +242,10 @@ Volunteering experience
 
 * Assisted with the build out for FOSDEM, prior to the event.
 * Assisted with the clean up of the ULB in Brussels, post FOSDEM.
-* Assisted with any misc tasks as required during the conference, based on organiser requirements.
+* Assisted with any misc tasks as required during the conference, based on organizer requirements.
 * Assisted with the initial video editing for Saturday's raw footage.
 * Moderated multiple talks (keynotes/main tracks) in the Jason building (1400 seat capacity).
-* Worked with a multi-national team of volunteers (50+) to help deliver 512 talks over 22 rooms in 2 days.
+* Worked with a multinational team of volunteers (50+) to help deliver 512 talks over 22 rooms in 2 days.
 
 ### The Scout Association
 *December 2006 - January 2014*
