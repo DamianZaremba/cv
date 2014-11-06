@@ -194,37 +194,6 @@ automate process.
 * Handled network and power issues on a datacenter level.
 * Solely responsible for investigating and resolving alerts during out of hours.
 
-### Rawr IRC - Developer
-*December 2009 - October 2010*
-
-* Developed a custom services framework.
-* Integrated social media and forums into IRC.
-* Designed user engagement tools, such as live mapping of activity.
-* Wrote multiple maintenance scripts.
-* Managed 2 UnrealIRCd nodes.
-
-### Xinos - Network Administrator
-*January 2009 - February 2010*
-
-* Start-up offering shared hosting to Geeks.
-* Provided managed Shoutcast, DNS and Web hosting.
-* Maintained a KVM and XEN based virtualization environment.
-* Managed Nginx, Varnish, Bind9, MySQL, Exim, cPanel.
-* Automated parts of the account management system.
-* Integrated services for abuse monitoring.
-* Wrote custom resource accounting and file scanning services.
-
-### NYCC - Desk side support
-*October 2008 - March 2009*
-
-* Provided 'hands on' support to end users.
-* Delivered hardware upgrades.
-* Performed device installation/configuration.
-* Assisted in large scale network upgrades.
-* Worked with multiple teams to ensure issues where resolved.
-* Handled the configuration of PGP based encryption for remote devices.
-* Working across the county individually and as part of a team.
-
 Professional certifications
 ---------------------------
 * LPIC-1 - LPI000199836 (dxaf9wwwdt) - Expires April 2015
