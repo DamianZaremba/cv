@@ -3,26 +3,43 @@ Damian Zaremba
 
 Summary
 -------
-Experienced, driven and professional Linux Systems Engineer, constantly looking
-to improve service and run at the edge of technology.
+Experienced, driven and professional Linux Systems Administrator, constantly looking to improve
+service and run at the edge of technology.
 
-Passionate about complex high throughput distributed systems (especially low
-latency/real time), solution design, testing, automation, Linux, open source,
-monitoring, metrics and graphing.
+Passionate about networking, complex distributed systems, solution design, testing, automation,
+Linux, open source, monitoring, metrics and graphing.
 
-Interested in ITIL methodologies for service management, Agile methodologies for
-development life cycle/work flows and software testing/building strategies.
+Interested in ITIL methodologies for service management, Agile methodologies for development life
+cycle/work flows and software testing/building strategies.
 
-Driven to impact change where required and deliver things done properly.
-
-Not interested in red tape or project management which gets in the way of progress.
+Driven to impact change where required and deliver things done efficiently.
 
 Employment History
 ------------------
 ### TravelJigsaw (rentalcars.com) - Linux Systems Administrator
 *February 2014 - Present*
 
-Doing things with stuff powered by striped cats and dolphins.
+Working in a small team of 6 scaling out and managing the 1k+ of servers that make up the infrastructure.
+
+* Manage/deploy a heterogeneous infrastructure consisting of bare metal rack mount and blade servers
+(HP/Dell) alongside VMWare ESX, KVM, Docker and EC2 based instances
+* Refactored a Puppet 2.x setup into a Puppet 3.7.x setup using the latest language standards and a
+principle of state convergence on first run
+* Support the internal tools written in Python/Ruby including the Django based asset management tool
+* Provide out of hours support to the business via an 'on-call' rota
+* Assist in the development of the deployment system, supporting sub 5 min deployments to the tomcat
+based front end application servers
+* Introduced CI to operations for RPM builds and puppet testing
+* Coordinate with datacenter and network teams to ensure changes are completed as required by the business
+* Deployed anti-virus scanning and DKIM signing of outbound messages using Exim routers to ensure
+external facing email meets validation/verification levels requested by the business
+* Developed multiple fabric based scripts for real time auditing and remediation of servers
+(firmware versions, log file cleanup etc)
+* Troubleshooted multiple issues over php-fpm, Tomcat, Java 7/8, Nginx, Apache & F5 setups
+* Champion the use of upstream packages and versions of core software
+* Worked closely with development teams to test new software and build a path into production
+* Developed kickstart files and custom initrd files for server installation
+* Developed acceptance tests for hardware using PyUnit and Fabric
 
 ### MUSIC Group - Software Engineer (RnD - Midas/Klark Teknik)
 *July 2013 - February 2014*
