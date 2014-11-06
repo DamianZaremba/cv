@@ -105,27 +105,28 @@ checking) and templates (network devices, server roles etc.) for monitoring syst
 
 End to end management and design of infrastructure, heavily Linux and Network focused.
 
-Provide software development as required (Python, Perl, PHP, C, C++, Shell, node.js, Django, Ruby),
-all custom work - some open source. Primary focus on Python (including Django), Perl, Shell and C++.
+Provide software development as required in Python (including Django), Perl, PHP, C++ & Ruby. Primary
+focus on extending open source solutions and API services.
 
-Deployed Linux solutions at edge and core, covering all aspects from SOHO up to multi datacenter.
-Areas including PXE, kickstart/preseed, Puppet, Cobbler, Salt stack, asset tracking, life cycle
-management, testing, custom Linux distributions and bespoke auditing tools.
+Previously deployed Linux solutions at edge and core, covering all aspects from small office up to
+multi datacenter setups. Solutions including PXE (kickstart/preseed/Cobbler), Katello, Puppet,
+Saltstack, asset tracking, lifecycle management, testing, custom Linux distributions and bespoke
+auditing tools.
 
 Designed networks to specification (cost or functionality), familiar with large layer 2/3 deployments
-including STP, DTP, LACP protocols, VLAN tagging, trunking, layer 2 protections (ARP, DHCP, BPDU guard),
-static routing, dynamic routing (RIP, OSPF, EIGRP, BGP), MPLS (P2P and 'cloud'), QOS, ASA firewalls,
+including STP, DTP, LACP protocols, vlan tagging, trunking, layer 2 protections (arp, dhcp, bpdu guard),
+static routing, dynamic routing (RIP, OSPF, EIGRP, BGP), MPLS (L2 and L3 VPNs, LSPs), QOS, ASA firewalls,
 ACL management, redundancy, performance optimisation, asynchronous routing, remote troubleshooting,
 issue diagnostics (layer 1-8) and vendor interaction/management (global).
 
 Re-designed and migrated data-centre architecture for hosting providers and global companies including
-co-ordination with on-site resources for physical relocation, design and implementation of redundant
-core and distribution network services, designing SPOFs out, isolating management connectivity into
-segregated failure domains (physically, up to a separate BGP mix with different routes), design of
-troubleshooting tools for help desk staff, auditing equipment, implementation of off-site backup
-arrangements, low level migration tools (redirection of network traffic to holding servers, DDOS
-protection, distributed caching, automated null-routing tools, automated firewall rule distribution
-tools), power usage profiling and cost reduction.
+co-ordination with onsite resources for physical relocation, design and implementation of redundant
+core and distribution network services, designing single points of failure out, isolating management
+connectivity into segregated failure domains (physically, up to a separate BGP mix with different routes),
+design of troubleshooting tools for helpdesk staff, auditing equipment, implementation of off-site backup
+arrangements, low level migration tools (redirection of network traffic to holding servers, DDOS protection,
+distributed caching, automated route adjustment tools, automated firewall rule distribution tools),
+power usage profiling and cost reduction.
 
 ### Sub 6 Limited - Lead Systems Administrator
 *October 2011 - August 2012*
