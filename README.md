@@ -200,27 +200,6 @@ Professional certifications
 * LPIC-2 - LPI000199836 (84nk9rech3) - Expires April 2015
 * Certified Ethical Hacker v6 - Expired December 2013
 
-Education
----------
-### Firebrand Training
-*2010*
-
-I completed a number of courses at Firebrand to expand my knowledge on computer security and hardware
-fundamentals.
-
-This resulted in my gaining Comptia A+, CEH and LPIC level 1/2 certifications.
-
-### Rossendale School
-*2002 - 2009*
-
-I completed GCSEs in ICT (A), Mathematics (D) and key skills exams.
-
-In my spare time I also assisted in the network administration, involving a single windows server
-2003 DC, two Linux servers and around 50-70 desktops running a mix of windows 2000 and XP pro.
-
-This involved me writing numerous scripts (bat/vbs) to do simple actions such as mapping drives or
-configuring proxies via group policy.
-
 Volunteering experience
 -----------------------
 ### FOSDEM volunteer
