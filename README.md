@@ -118,7 +118,7 @@ ACL management, redundancy, performance optimisation, asynchronous routing, remo
 issue diagnostics (layer 1-8) and vendor interaction/management (global).
 
 Re-designed and migrated data-centre architecture for hosting providers and global companies including
-co-ordination with onsite resources for physical relocation, design and implementation of redundant
+co-ordination with on site resources for physical relocation, design and implementation of redundant
 core and distribution network services, designing single points of failure out, isolating management
 connectivity into segregated failure domains (physically, up to a separate BGP mix with different routes),
 design of troubleshooting tools for helpdesk staff, auditing equipment, implementation of off-site backup
