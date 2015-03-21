@@ -195,9 +195,10 @@ automate process.
 
 Professional certifications
 ---------------------------
+* Red Hat Certified Engineer - 150-017-028 - Expires March 2018
+* Red Hat Certified System Administrator - 150-017-028 - Expires March 2018
 * LPIC-1 - LPI000199836 (dxaf9wwwdt) - Expires April 2015
 * LPIC-2 - LPI000199836 (84nk9rech3) - Expires April 2015
-* Certified Ethical Hacker v6 - Expired December 2013
 
 Volunteering experience
 -----------------------
