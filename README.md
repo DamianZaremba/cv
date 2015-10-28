@@ -15,8 +15,11 @@ Driven to impact change where required and deliver things done efficiently and e
 
 Employment History
 ------------------
+### TravelJigsaw (rentalcars.com) - Technical Architect
+*June 2015 - Present*
+
 ### TravelJigsaw (rentalcars.com) - Linux Systems Administrator
-*February 2014 - Present*
+*February 2014 - June 2015*
 
 Working in a team of 3 sysadmins maintaining, tuning and updating the 1k+ servers that make up the infrastructure.
 
