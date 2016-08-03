@@ -6,6 +6,7 @@ addons:
     - git
     - build-essential
     - texlive-full
+    - pandoc
 script: make -s install
 env:
   global:
