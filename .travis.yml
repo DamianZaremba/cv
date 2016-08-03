@@ -1,0 +1,15 @@
+language: ruby
+cache: bundler
+rvm:
+- 2.2
+sudo: false
+addons:
+  apt:
+    packages:
+    - git
+    - build-essential
+    - texlive-full
+script: make -s install
+env:
+  global:
+    secure: hB7ob3qS0zTkCklMiHMi6VcNi97ijCdV2fPxgyTx6MLCKhLrrKmEwtT8b+gNkThD1kVuu97adCBYjr5tVgNkl9SExeWQG4LMizrihK6WnHAAkfJipxVJzNeuIOcdBcTPhNjSQ67NdCVjneOXQ6vbwljHG1GHPCtTTH6hxk60QDQ=
