@@ -13,6 +13,10 @@ latex:
 	pandoc README.md -o damianzaremba.tex
 
 push:
+	# Setup git
+	git config --global user.email "damian@damianzaremba.co.uk"
+	git config --global user.name "Damian Zaremba"
+
 	# SSH wrapper
 	if [ ! -d _temp ]; then \
 		mkdir -p _temp; \
