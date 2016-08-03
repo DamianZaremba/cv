@@ -30,6 +30,8 @@ push:
 	if [ "`git ls-files --modified --deleted | wc -l`" != "0" ] && [ "master" = "$(TRAVIS_BRANCH)" ]; \
 	then \
 		git add --all . && \
+			git checkout master; \
+			git clean -fd; \
 			git commit -am "Formats auto updated"; \
 				if [ -z "${GH_TOKEN}" ]; then \
 					GIT_SSH=../_temp/ssh git push git@github.com:DamianZaremba/cv.git master; \
