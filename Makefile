@@ -1,7 +1,7 @@
 all: pdf html epub latex
 
 pdf:
-	pandoc README.md -o damianzaremba.pdf
+	pandoc -V geometry:margin=0.5in README.md -o damianzaremba.pdf
 
 html:
 	pandoc README.md -o damianzaremba.html

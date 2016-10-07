@@ -1,31 +1,230 @@
 \section{Damian Zaremba}\label{damian-zaremba}
 
+TL;DR I like interesting problems, at scale, mostly involving
+networking.
+
+((Systems + Networking) + Bussiness requirements = Positive bussiness
+impact) == \textless{}3
+
 \subsection{Summary}\label{summary}
 
-A driven Linux focused sysadmin constantly looking to improve service
-and run at the edge of technology.
+Linux/network focused sysadmin constantly looking to improve service and
+run at the edge of technology.
 
-Passionate about networking, architecture, complex distributed systems,
-solution design, testing, automation, Linux, open source, monitoring,
-metrics and graphing.
-
-Interested in Agile methodologies for development life cycle/work flows
-and software testing/building strategies.
+Passionate about networking, architecture, solution design, automation,
+testing, Linux, open source, micro optimisations, monitoring, metrics
+and graphing.
 
 Driven to impact change where required and deliver things done
 efficiently and effectively.
 
 \subsection{Employment History}\label{employment-history}
 
+\subsubsection{Booking.com - DevOps
+Engineer}\label{booking.com---devops-engineer}
+
+\emph{September 2016 - Present}
+
+Working in the network engineering department, dealing with internal
+systems related to provisioning, monitoring and managing network devices
+across the globe.
+
+\subsubsection{TravelJigsaw Limited (Rentalcars.com) - Principal
+Security
+Engineer}\label{traveljigsaw-limited-rentalcars.com---principal-security-engineer}
+
+\emph{November 2015 - September 2016}
+
+Focused on improving all technical aspects of the security landscape.
+
+Worked closely with Legal, Finance, Technology and Security teams in the
+business to deliver security objectives.
+
+A number of large undertakings were completed successfully including:
+
+\begin{itemize}
+\tightlist
+\item
+  Achieving a \textasciitilde{}65\% reduction in external facing
+  vulnerabilities, while observing a \textasciitilde{}44\% increase in
+  assets.
+\item
+  Deploying an OpenLDAP topology, synced with Active Directory entries,
+  using SASL to hand off password authentication
+\item
+  Deploying an internal certificate authority and root certificates
+  (ca-bundle + JKS files) to 800+ servers
+\item
+  Developing tooling in Puppet for firewall rule management and deployed
+  restrictive Iptables rules to 800+ servers
+\item
+  Deploying OpenLDAP using SSSD \& pam\_access to 800+ servers for
+  centralised authentication and access control
+\item
+  Building tooling around Nexpose, Serverspec \& Test Kitchen for
+  integration into a CI pipeline
+\item
+  Deploying an OSSEC setup to 800+ servers
+\item
+  Implementing internal vulnerability scanning of \textasciitilde{}2000
+  assets.
+\item
+  Rebuilding the entire PCI DSS environment with minimal business impact
+  and 100\% removal of vulnerabilities, including conformance to PCI DSS
+  (level 2, with external QSA assessment)
+\item
+  Developing CSP/HPKP functionality and servlet filters for external
+  facing applications, including reporting functionality to assess the
+  impact of policy/filter changes
+\item
+  Developing tooling for automated server patching (including staged
+  rollouts + reporting)
+\item
+  Developing tooling for rotating encryption keys on 10+ million data
+  entries in a fast and minimally impactful manner
+\item
+  Deploying a horizontally scalable (Anycast + Resilient ECMP based)
+  load balancing implementation using HAProxy to support migrating all
+  external traffic to use TLS
+\end{itemize}
+
+More day to day operational items included:
+
+\begin{itemize}
+\tightlist
+\item
+  Introducing hiera-eyaml (using the GPG backend) and node\_encrypt into
+  Puppet (3.x), for improved configuration secrets handling
+\item
+  Deploying SELinux in targeted mode to all `critical infrastructure'
+  (including in PCI/PII zones and core infrastructure)
+\item
+  Developing security tooling with appropriate access controls for
+  common activities such as managing OSSEC alerts, reporting on user
+  access and changing on-call settings.
+\item
+  Developing Python tooling for handling inventory changes in `black
+  box' security appliances
+\item
+  Developing Python tooling for streaming SIEM alerts off multiple
+  closed `black box' security appliances into a single events stream,
+  combined with OSSEC events
+\item
+  Working with vendors to PoC and implement security appliances,
+  including deploying TAP (Arista 7150 based) infrastructure for data
+  collection/aggregation
+\item
+  Providing expert level support to the architecture and engineering
+  teams within the Technology department
+\item
+  Performing reviews on proposed solutions and technical aspects of
+  legal contracts
+\item
+  Upgrading numerous server roles (including all core infrastructure) to
+  CentOS 6.8 and Puppet 3.x
+\item
+  Providing security on-call coverage (for both SIEM alerts and as an
+  escalation point for events)
+\item
+  Standardising firewall rules across multiple Juniper SRX clusters
+\item
+  Working with external and internal auditors to improve controls and
+  ensure (SoX, PCI DSS, DPA, Privacy Shield) compliance
+\item
+  Developing tooling for server patching in a controlled manner,
+  targeting both CentOS and VMWare ESXI (4.x / 5.x); Successfully
+  upgraded 100+ VMWare hosts, 800+ CentOS 6.x servers
+\item
+  Developing abstractions in puppet for managing pam\_access and sudo
+  (group) based access rules, with inheritance
+\item
+  Supported the Network team in implementing new internet infrastructure
+  (routing policy, peering points, redundancy testing, design of
+  firewall cluster connectivity to avoid L2 spans in transit layers,
+  confederated BGP etc); this was the implementation of the solution
+  previously designed (see the previous role)
+\item
+  Interviewing candidates for engineering and development roles
+\item
+  Drafting a roadmap and key milestones for security enhancements
+\end{itemize}
+
 \subsubsection{TravelJigsaw Limited (Rentalcars.com) - Technical
 Architect}\label{traveljigsaw-limited-rentalcars.com---technical-architect}
 
-\emph{November 2015 - Present}
-
-\subsubsection{TravelJigsaw Limited (Rentalcars.com) - Technical
-Architect}\label{traveljigsaw-limited-rentalcars.com---technical-architect-1}
-
 \emph{June 2015 - November 2015}
+
+As a founding member of the architecture team (team of 3), my initial
+focus was a review of the core systems, potential contention/failure
+points and a roadmap for core infrastructure.
+
+The work was varied and included documenting/diagramming existing
+systems, interviewing candidates for multiple roles (engineers, managers
+\& contractors), providing expert support during service issues/solution
+design, building software prototypes, working with the teams to
+establish standards and designing new solutions.
+
+A number of solutions were designed, many of which ended up in
+production:
+
+\begin{itemize}
+\tightlist
+\item
+  A new internet connectivity segment, removing single providers/devices
+  out of a critical path and improving scalability for the future; this
+  established the first ASN and IP space directly held by the company
+\item
+  Route based injection for service discovery; a successful PoC and
+  accepted for specific services. No wide rollout due to a lack of equal
+  cost within the main access network
+\item
+  AWS direct connect for hybrid (test/development) environments; a
+  successful PoC, now supporting multiple teams and production services
+\item
+  A new `event backbone' using Apache Flume and Kafka with custom
+  consumers written in Java; a successful PoC handling millions of
+  events a minute. This is now the standard way to transmit/consume
+  events within the company and has 2 Kafka clusters deployed,
+  publishing events into a diverse set of backends (ElasticSearch,
+  MySQL, AppDynamics, HDFS, CSV files etc)
+\end{itemize}
+
+Other outcomes include:
+
+\begin{itemize}
+\tightlist
+\item
+  An 18-month roadmap/improvement plan for the network
+\item
+  Numerous risks identified within the technology landscape and
+  prioritised for resolution with the engineering teams
+\item
+  Implementation of Bamboo for CI, including multiple example jobs and
+  Java-based plugins
+\item
+  Implementation of Artifactory Pro for internal binary sharing
+  (integrated into Bamboo and internal deployment systems)
+\item
+  Updated design for a multistage Clos architecture within the DCs
+  (budgeted for completion Q4 2016)
+\end{itemize}
+
+Some areas of investigation were undertaken:
+
+\begin{itemize}
+\tightlist
+\item
+  Impact of deploying Docker into Production; this was determined to be
+  dependent on an equal cost network due to the impact of differential
+  latencies between access segments on performance
+\item
+  Real(ish) time event analysis (using Parquet backed tables in Hadoop);
+  the primary driver for this was to power a re-build of the internal
+  A/B/n / MVT testing dashboards
+\item
+  Datacenter standardisation via logical (vRF) rather than physical role
+  separation
+\end{itemize}
 
 \subsubsection{TravelJigsaw Limited (Rentalcars.com) - Linux Systems
 Administrator}\label{traveljigsaw-limited-rentalcars.com---linux-systems-administrator}
@@ -38,44 +237,73 @@ Working in a team of 3 sysadmins maintaining, tuning and updating the
 \begin{itemize}
 \tightlist
 \item
-  Manage/deploy a heterogeneous infrastructure consisting of bare metal
-  rack mount and blade servers (HP/Dell) alongside VMWare ESX, KVM,
-  Docker and EC2 based instances
+  Managed/deployed a heterogeneous infrastructure consisting of bare
+  metal rack mount and blade servers (HP/Dell) alongside VMWare ESX,
+  KVM, Docker and EC2 based instances
 \item
   Refactored a Puppet 2.x setup into a Puppet 3.x setup using the latest
-  language standards and a principle of state convergence on first run
+  language standards and the principle of state convergence on the first
+  run
 \item
-  Support the internal tools written in Python/Ruby including the Django
-  based asset management tool
+  Supported the internal tools written in Python/Ruby including the
+  Django-based asset management tool
 \item
-  Provide out of hours support to the business via an `on-call' rota
+  Provided out of hours support to the business via an on-call rota
 \item
   Introduced CI to operations for RPM builds and puppet testing
 \item
-  Re-designed the core network to be a fabric based setup
+  Re-designed the core network to be a fabric based setup, based on a
+  multi-stage Clos architecture
 \item
-  Coordinate with datacenter and network teams to ensure changes are
+  Coordinated with data centre and network teams to ensure changes are
   completed as required by the business
 \item
   Deployed anti-virus scanning and DKIM signing of outbound messages
   using Exim routers to ensure external facing email meets
   validation/verification levels requested by the business
 \item
-  Developed multiple fabric based scripts for real time auditing and
+  Developed multiple fabric based scripts for real-time auditing and
   remediation of servers (firmware versions, log file cleanup etc)
 \item
-  Troubleshooted multiple issues over php-fpm, Tomcat, Java 7/8, Nginx,
-  Apache \& F5 setups
+  Built a PoC SaltStack deployment
 \item
-  Champion the use of upstream packages and versions of core software
+  Performed troubleshooting on multiple issues of PHP-FPM, Tomcat, Java
+  7/8, Nginx, Apache \& F5 setups
+\item
+  Championed the use of upstream packages and versions of core software
 \item
   Worked closely with development teams to test new software and build a
-  path into production
+  path to production
 \item
   Developed kickstart files and custom initrd files for server
-  installation
+  installation (including automated firmware updates)
 \item
   Developed acceptance tests for hardware using PyUnit and Fabric
+\item
+  Interviewed candidates for junior sysadmin positions and devised
+  training plans for them within the company
+\item
+  Devised tests for and interviewed candidates for senior engineering
+  positions
+\end{itemize}
+
+A part of this role involved building the initial infrastructure for
+Car+Driver (Rideways.com); a startup within the company. This was
+accomplished using:
+
+\begin{itemize}
+\tightlist
+\item
+  AWS EC2/S3/RDS/Cloudfront/Cloudformation/ElastiCache
+\item
+  Python (troposphere) based CloudFormation generation
+\item
+  Python (boto) based deployment scripts, for CloudFormation and
+  CodeDeploy
+\item
+  Packer + Puppet (masterless) based AMI creation
+\item
+  Github + Bamboo + Jira for CI/CD
 \end{itemize}
 
 \subsubsection{MUSIC Group - Software Engineer (RnD - Midas/Klark
@@ -89,17 +317,17 @@ infrastructure.
 \begin{itemize}
 \tightlist
 \item
-  Deployed an isolated 3 node (2 HA controllers) Openstack Havana set-up
+  Deployed an isolated 3 node (2 HA controllers) OpenStack Havana set-up
   using NetApp ONTAP storage.
 \item
-  Designed and implemented a small `collapsed-core' network architecture
-  - using Cisco technologies
+  Designed and implemented a small `collapsed-core' network - using
+  Cisco technologies
 \item
   to provide an isolated R\&D network, inside an existing (insecure)
   corporate network.
 \item
   Performed data recovery on R\&D servers/data and developed workarounds
-  for internal services during a 4 month long global TECH service
+  for internal services during a 4-month long global TECH service
   failure.
 \item
   Developed a testing jig for boards using a raspberry PI with GPIO
@@ -110,7 +338,7 @@ infrastructure.
   (source code, tickets, build configurations).
 \item
   Rearchitected the current 2 server setup (unmonitored, running on raid
-  0, constrained by disk/CPU) into a 3 node Openstack setup and
+  0, constrained by disk/CPU) into a 3 node OpenStack setup and
   re-purposed older servers (removed from service during a transition
   from CVS to Git) as disposable build agents.
 \item
@@ -118,18 +346,18 @@ infrastructure.
   (Salt stack) and service/change monitoring (Icinga/Rancid).
 \item
   Reduced build times (14 hours to 40min) and implemented a new strategy
-  for multi component builds.
+  for multi-component builds.
 \item
   Drove continuous deployment methodologies into new product design
 \item
   Designed a framework and strategy for increasing confidence in code
   and speeding up the release cycle.
 \item
-  Developed software against x86, STM32 and ARM based platforms,
-  including control for switches/FPGAs/DSPs
+  Developed software against x86, STM32, and ARM-based platforms,
+  including acting as the control plane for embedded switches/FPGAs/DSPs
 \item
   Exposure to proprietary binary based communications protocols and
-  their pitfalls vs open, standards based communications protocols and
+  their pitfalls vs open, standards-based communications protocols and
   their benefits
 \item
   Performed maintenance on LFS and Ltib systems for building products
@@ -138,7 +366,7 @@ infrastructure.
   shell/Sed/Awk scripting
 \item
   Investigated web technologies, updating/deployment methodologies, RFB
-  reverse tunnelling, SELinux and performance analysis/containment.
+  reverse tunnelling, SELinux, and performance analysis/containment.
 \item
   Utilised kernel features to enhance new products (control groups,
   SELinux, nftables)
@@ -156,8 +384,8 @@ Engineering)}\label{music-group---systems-engineer-global-enterprise-engineering
 
 \emph{October 2012 - July 2013}
 
-Supporting world-recognized pro audio brands such as MIDAS, Klark
-Teknik, Turbosound, Behringer and Bugera.
+Supporting world-recognised pro audio brands such as MIDAS, Klark
+Teknik, Turbosound, Behringer, and Bugera.
 
 \begin{itemize}
 \tightlist
@@ -194,7 +422,7 @@ Teknik, Turbosound, Behringer and Bugera.
   availability.
 \item
   Developed strategies for operating system deployment and management
-  globally.
+  globally (primarily Ubuntu).
 \item
   Packaged and maintained numerous pieces of software into DEB and RPM
   files for distribution.
@@ -206,47 +434,14 @@ Teknik, Turbosound, Behringer and Bugera.
   Diagnosed multiple issues with an Oracle ESSO deployment.
 \item
   Implemented RANCID based backups for network device configurations.
+\item
+  Implemented LLDP/CDP based network topology diagraming for the
+  discovery of devices within an unknown network.
+\item
+  Supported the implementation of a new network design (3 DCs, existing
+  offices converted to leased lines, EIGRP backbone, OSFP in office, BGP
+  to the internet and between sites)
 \end{itemize}
-
-\subsubsection{Freelancer: Architecture, Infrastructure, Linux
-Deployment, Network Design, Software
-Development}\label{freelancer-architecture-infrastructure-linux-deployment-network-design-software-development}
-
-\emph{November 2008 - Current}
-
-End to end management and design of infrastructure, heavily Linux and
-Network focused.
-
-Provide software development as required in Python (including Django),
-Perl, PHP, C++ \& Ruby. Primary focus on extending open source solutions
-and API services.
-
-Previously deployed Linux solutions at edge and core, covering all
-aspects from small office up to multi datacenter setups. Solutions
-including PXE (kickstart/preseed/Cobbler), Katello, Puppet, Saltstack,
-asset tracking, lifecycle management, testing, custom Linux
-distributions and bespoke auditing tools.
-
-Designed networks to specification (cost or functionality), familiar
-with large layer 2/3 deployments including STP, DTP, LACP protocols,
-vlan tagging, trunking, layer 2 protections (arp, dhcp, bpdu guard),
-static routing, dynamic routing (RIP, OSPF, EIGRP, BGP), MPLS (L2 and L3
-VPNs, LSPs), QOS, ASA firewalls, ACL management, redundancy, performance
-optimisation, asynchronous routing, remote troubleshooting, issue
-diagnostics (layer 1-8) and vendor interaction/management (global).
-
-Re-designed and migrated data-centre architecture for hosting providers
-and global companies including co-ordination with on site resources for
-physical relocation, design and implementation of redundant core and
-distribution network services, designing single points of failure out,
-isolating management connectivity into segregated failure domains
-(physically, up to a separate BGP mix with different routes), design of
-troubleshooting tools for helpdesk staff, auditing equipment,
-implementation of off-site backup arrangements, low level migration
-tools (redirection of network traffic to holding servers, DDOS
-protection, distributed caching, automated route adjustment tools,
-automated firewall rule distribution tools), power usage profiling and
-cost reduction.
 
 \subsubsection{Sub 6 Limited - Lead Systems
 Administrator}\label{sub-6-limited---lead-systems-administrator}
@@ -263,16 +458,18 @@ Administrator}\label{sub-6-limited---lead-systems-administrator}
   requirements.
 \item
   Integrated multiple services into the asset management system to cut
-  down on manual sets and automate process.
+  down on manual steps and automate the process.
 \item
-  Introduced continuous integration into the development work flow.
+  Introduced continuous integration into the development workflow.
 \item
   Rolled out Puppet for configuration management.
 \item
-  Handled configuration of the switched network (trunk/access ports,
-  VLAN's etc.).
+  Handled configuration of the switched network.
 \item
-  Rolled out LDAP and Radius for centralized authentication.
+  Designed and implemented a network topology to `in-house' all UK DC
+  networking
+\item
+  Rolled out LDAP and Radius for centralised authentication.
 \item
   Developed custom features for Kayako and WHMCS.
 \item
@@ -283,11 +480,11 @@ Administrator}\label{sub-6-limited---lead-systems-administrator}
 \item
   Implemented rolling password changes on a twice weekly basis.
 \item
-  Designed and developed an in-house (customer facing) IP based FTP
+  Designed and developed an in-house (customer facing) IP-based FTP
   access manager.
 \item
   Designed and developed a bespoke (customer facing) version manager for
-  4 PHP versions.
+  4 x PHP versions.
 \item
   Developed a gatekeeper service to display holding pages for clients
   during a datacenter move.
@@ -320,14 +517,14 @@ developer}\label{allgamer-llc---freelance-systems-administrator-and-developer}
 \subsubsection{Calyx - Unix/Linux systems
 administrator}\label{calyx---unixlinux-systems-administrator}
 
-\emph{April 2011 - May 2011}
+\emph{April 2011 - May 2011 (contract)}
 
 \begin{itemize}
 \tightlist
 \item
-  Responsible for a RHEL5 RHCS set-up.
+  Responsible for an RHEL5 RHCS set-up.
 \item
-  Managed Apache, Tomcat, JBos, Orcale 10G, MySQL.
+  Managed Apache, Tomcat, JBos, Oracle 10G, MySQL.
 \item
   Provided on-call support.
 \item
@@ -336,7 +533,7 @@ administrator}\label{calyx---unixlinux-systems-administrator}
   Successfully identified and resolved memory leaks within the
   application servers.
 \item
-  Managed Xen and Citrix Xenserver deployments.
+  Managed Xen and Citrix XenServer deployments.
 \item
   Debugged tomcat logs to identify root causes of application issues.
 \item
@@ -399,21 +596,45 @@ Engineer/Developer}\label{cloudflux---systems-engineerdeveloper}
   of hours.
 \end{itemize}
 
-\subsection{Professional
-certifications}\label{professional-certifications}
+\subsubsection{Freelancer: Architecture, Infrastructure, Linux
+Deployment, Network Design, Software
+Development}\label{freelancer-architecture-infrastructure-linux-deployment-network-design-software-development}
 
-\begin{itemize}
-\tightlist
-\item
-  Red Hat Certified Engineer - 150-017-028 - Expires March 2018
-\item
-  Red Hat Certified System Administrator - 150-017-028 - Expires March
-  2018
-\item
-  LPIC-1 - LPI000199836 (dxaf9wwwdt) - Expires April 2015
-\item
-  LPIC-2 - LPI000199836 (84nk9rech3) - Expires April 2015
-\end{itemize}
+\emph{November 2008 - Current}
+
+End to end management and design of infrastructure, heavily Linux and
+Network focused.
+
+Provide software development as required in Python (including Django),
+Perl, PHP, C++ \& Ruby. Primary focus on extending open source solutions
+and API services.
+
+Previously deployed Linux solutions at edge and core, covering small
+offices up to multi-datacenter setups. Solutions including PXE
+(kickstart/preseed/Cobbler), Katello, Puppet, SaltStack, asset tracking,
+lifecycle management, testing, custom Linux distributions and bespoke
+auditing tools.
+
+Designed networks to specification (cost or functionality), familiar
+with large layer 2/3 deployments including STP, DTP, LACP protocols,
+VLAN tagging, trunking, layer 2 protections (ARP, DHCP, BPDU guard),
+static routing, dynamic routing (RIP, OSPF, EIGRP, BGP), MPLS (L2 and L3
+VPNs, LSPs), QOS, ASA firewalls, ACL management, redundancy, performance
+optimisation, asynchronous routing, remote troubleshooting, issue
+diagnostics (layer 1-8) and vendor interaction/management (global).
+
+Re-designed and migrated multiple data centre architectures for hosting
+providers and global companies including coordination with on-site
+resources for physical relocation, design constraints, and
+implementation of redundant core and distribution network services,
+designing single points of failure out, isolating management
+connectivity into segregated failure domains (physically, up to a
+separate BGP mix with different routes), the design of troubleshooting
+tools for helpdesk staff, auditing equipment, implementation of off-site
+backup arrangements, low-level migration tools (redirection of network
+traffic to holding servers, DDOS protection, distributed caching,
+automated route adjustment tools, automated firewall rule distribution
+tools), power usage profiling and cost reduction.
 
 \subsection{Volunteering experience}\label{volunteering-experience}
 
@@ -429,7 +650,7 @@ certifications}\label{professional-certifications}
   Assisted with the clean up of the ULB in Brussels, post FOSDEM.
 \item
   Assisted with any misc tasks as required during the conference, based
-  on organizer requirements.
+  on organiser requirements.
 \item
   Assisted with the initial video editing for Saturday's raw footage.
 \item
@@ -459,26 +680,35 @@ certifications}\label{professional-certifications}
 \item
   Activity instructor for climbing.
 \item
-  Completed training for First Aid, Climbing, Safeguarding and
-  Leadership
+  Completed training for first aid, climbing, safeguarding and
+  leadership
 \item
-  Assist local camp sites, district, county and groups at large events.
+  Assist local camp sites, district, county, and groups at large events.
 \end{itemize}
 
-\subsection{References}\label{references}
+\subsection{Professional certifications
+(current)}\label{professional-certifications-current}
 
-Available upon request.
+\begin{itemize}
+\tightlist
+\item
+  Red Hat Certified Engineer - 150-017-028
+\item
+  Red Hat Certified System Administrator - 150-017-028
+\end{itemize}
 
 \subsection{Misc}\label{misc}
 
 \begin{itemize}
 \tightlist
 \item
-  UK driving licence.
+  UK passport/driving licence
 \item
-  UK passport.
+  Available out of hours
 \item
-  Available out of hours.
+  Based in Amsterdam, Netherlands
+\item
+  References available upon request
 \end{itemize}
 
 \subsection{See Also}\label{see-also}
