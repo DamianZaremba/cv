@@ -1,0 +1,28 @@
+name: Continuous Deployment
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Install system dependancies
+        run: sudo apt-get install -y make pandoc texlive-latex-base texlive-fonts-recommended
+
+      - name: Transpile formats
+        run: make all
+
+      - name: Publish the new entries to master
+        run: |
+          git add --all && (
+            git config --global user.name "InfraBits CI"
+            git config --global user.email "ci@infrabits.nl"
+
+            git commit -m "Auto publishing formats"
+            git push origin master
+          ) || true
+        if: github.ref == 'refs/heads/master'
