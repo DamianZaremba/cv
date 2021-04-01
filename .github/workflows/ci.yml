@@ -1,8 +1,6 @@
 name: Continuous Deployment
-on:
-  push:
-    branches:
-      - master
+on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,13 +14,12 @@ jobs:
       - name: Transpile formats
         run: make all
 
-      - name: Publish the new entries to master
+      - name: Publish the new entries to branch
         run: |
           git add --all && (
             git config --global user.name "InfraBits CI"
             git config --global user.email "ci@infrabits.nl"
 
             git commit -m "Auto publishing formats"
-            git push origin master
+            git push origin ${GITHUB_REF#refs/heads/}
           ) || true
-        if: github.ref == 'refs/heads/master'
