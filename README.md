@@ -15,15 +15,25 @@ Driven to impact change where required and deliver things done efficiently and e
 
 Employment History
 ------------------
+### Infra Bits - Freelance network/systems engineer & trainer
+*April 2021 - present*
+
+* PADI/TecRec training
+* EFR training
+* Network consultancy
+* Software development
+
+_Not currently looking for a long term position._
+
 ### Fastly - Senior Network Engineer
-*September 2018 - present*
+*September 2018 - April 2021*
 
 Focused on the automation, management, expansion & improvement of AS54113 (FSLY) as part of the network reliability engineering team. During this time the network grew from 37T to over 110T of capacity, with new generations of topologies.
 
-Responsibilities include:
+Responsibilities included:
 
 * Management/development of the global configuration state & traffic engineering posture
-* Building tooling for automation of repeat tasks and safety in operations
+* Building tooling for automation of repetitive tasks and safety in operations
 * Integration of systems for optimisation of processes & data de-duplication
 * Planning for and execution of large customer events
 * Extension of existing critical systems for new business requirements
@@ -35,7 +45,7 @@ Responsibilities include:
 
 Achievements include:
 
-* Extensive improvements to topology & business logic validation frameworks, preventing common issues
+* Extensive improvements to topology & business logic validation frameworks, preventing common configuration issues
 * Migration of a legacy route server platform into an extensively tested CI driven platform, removing significant amounts of business risk
 * Extending integration of IPAM services into Chef data providers/helpers, removing significant operational friction & risk
 * Integration of internal systems into industry-standard platforms such as PeeringDB, IRRD & RADB, reducing operational overhead
