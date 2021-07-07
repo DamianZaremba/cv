@@ -1,13 +1,6 @@
-all: pdf html epub latex
+.PHONY: all
+all: pdf
 
+.PHONY: pdf
 pdf:
-	pandoc -V geometry:margin=0.5in README.md -o damianzaremba.pdf
-
-html:
-	pandoc README.md -o damianzaremba.html
-
-epub:
-	pandoc README.md -o damianzaremba.epub
-
-latex:
-	pandoc README.md -o damianzaremba.tex
+	pandoc README.md -o damianzaremba.pdf

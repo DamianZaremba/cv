@@ -1,225 +1,200 @@
-Damian Zaremba
-=============
+---
+papersize: a4
+geometry: margin=0.5in
+header-includes:
+  - \usepackage{multicol}
+  - \setlength{\columnsep}{0.3in}
+  - \newcommand{\hideFromPandoc}[1]{#1}\hideFromPandoc{\let\Begin\begin\let\End\end}
+  - \pagenumbering{gobble}
+---
+# Damian Zaremba
 
-I enjoy interesting problems at scale, mostly involving networking.
+\Begin{multicols}{2}
 
-((Systems + Networking) + Business requirements = Positive business impact) == <3
+![](damian.jpeg){width=300px}
 
-Summary
--------
-Network/Linux focused engineer constantly looking to improve service and run at the edge of technology.
+I am an experienced professional with a background in IT systems/network engineering & PADI/TecRec/EFR training.
 
-Passionate about networking, architecture, automation, testing, open-source, monitoring and training.
+Previously I have been a climbing instructor for the scout association, maintainer of anti-vandalism services for Wikipedia,
+a volunteer at conferences & a business owner.
 
-Driven to impact change where required and deliver things done efficiently and effectively.
+In addition, I have worked on infrastructure for organisations ranging from lean start-ups to multi-billion dollar public companies.
 
-Employment History
-------------------
-### Infra Bits - Freelance network/systems engineer & trainer
-*April 2021 - present*
+My curious nature & desire for knowledge results in ongoing learning & advancement of existing ratings, incrementally improving my valuable skillset.
 
-* PADI/TecRec training
-* EFR training
-* Network consultancy
-* Software development
+I am currently looking for a PADI 5-star centre with IDC/Tec Rec accreditation that can support taking my professional diving to the next level.
 
-_Not currently looking for a long term position._
+\End{multicols}
 
-### Fastly - Senior Network Engineer
-*September 2018 - April 2021*
+\vspace{-20px}
 
-Focused on the automation, management, expansion & improvement of AS54113 (FSLY) as part of the network reliability engineering team. During this time the network grew from 37T to over 110T of capacity, with new generations of topologies.
+# Work Experience
 
-Responsibilities included:
+\Begin{multicols}{2}
 
-* Management/development of the global configuration state & traffic engineering posture
-* Building tooling for automation of repetitive tasks and safety in operations
-* Integration of systems for optimisation of processes & data de-duplication
-* Planning for and execution of large customer events
-* Extension of existing critical systems for new business requirements
-* Migration and/or replacement of legacy systems/topologies
-* Troubleshooting complex technical issues/interactions
-* Evaluating and designing technical integrations of systems
-* Subject matter expert for operational & engineering teams (on-call escalation)
-* Provisioning & testing of new architectures
+## Scuba Education Amsterdam\vspace{-5px}
+### Staff / Divemaster / Instructor\vspace{-5px}
+*2018 - present*\vspace{-5px}
 
-Achievements include:
+SEA is a busy 5-star PADI resort & PADI TecRec centre located in Amsterdam, the Netherlands.
 
-* Extensive improvements to topology & business logic validation frameworks, preventing common configuration issues
-* Migration of a legacy route server platform into an extensively tested CI driven platform, removing significant amounts of business risk
-* Extending integration of IPAM services into Chef data providers/helpers, removing significant operational friction & risk
-* Integration of internal systems into industry-standard platforms such as PeeringDB, IRRD & RADB, reducing operational overhead
-* Porting of core Ansible based configuration management tooling into Python 3.x from 2.x, ensuring continued maintainability
-* Implementation of alerting for and debugging of network-level performance events (packet loss, RTT deviation)
-* Extension of operator tooling to perform validation of actions, for example preventing accidental withdrawal of unicast prefixes from a site
-* MTU sizing correction, deployed across thousands of machines, improving IPv6 reachability to numerous networks
-* ACL restructuring, resulting in higher hardware efficiency while providing improved abstractions for operators & auditors
-* Development, testing and deployment of internal IPv6 BGP & IGP topologies, ensuring redundant connectivity
-* Implementation & deployment of IPv6 policy control, resulting in significant customer-facing performance improvements
-* Numerous improvements to internal systems across an array of languages & domains, minimising business risk & operational overhead
+Starting as a Divemaster candidate, I became intimately familiar with the centre operations throughout my internship.
 
-### Booking.com - Network Engineer
-*September 2016 - September 2018*
+After achieving my Divemaster rating, I stepped up as the right-hand man, taking on direct responsibilities for the day-to-day running of the dive centre.
 
-Focused on the design, engineering and management of AS43996 & AS202196, powering Booking.com & Rentalcars.com (BKNG) globally.
+Since achieving my instructor ratings, I provide in-classroom & in-water training for PADI/TecRec/EFR courses.
 
-Responsibilities included:
+General responsibilities include:
 
-* Management of the global routing policies
-* Extending/managing peering relationships and transit selections
-* Hardware upgrades and maintenance in a non-stop manner
-* Deployment of new POPs
-* Ensuring adequate capacity and redundancy
-* Testing and implementing new technologies as required (EVPN, IPFIX etc)
-* Developing tooling and processes required to manage the global deployment
-* Supporting network tooling and authentication services for all network teams within Booking.com
-* Participating in the on-call rotation covering all production networks
-* LIR administration
+* Opening/closing of the dive centre
+* Greeting/orientating new students
+* Operation of the filling station
+* Equipment repair/servicing
+* Organisation of student training
+* Management of staff (DM/AI)
+* Reviewing/remediating theoretics
+* Delivery of knowledge development material
+* Preparation of classroom/pool for training
+* Organisation & transportation of equipment
+* In-water teaching, evaluation & supervision
+* PADI & internal paperwork completion & review
+* Issuing certifications via PIC online
 
-Achievements included:
+Additional responsibilities include:
 
-* Management of all network tooling services in Puppet
-* Port of existing IPFIX/Netflow v5 decoders into Go reducing resource usage and custom code significantly
-* Peer/IX selection/management tooling using flow and latency data for business/data-focused decisions
-* Internal tooling integration with PeeringDB
-* Implementation of real-time TCP latency monitoring tooling
-* Implementation of POP performance measurement tooling (deployed to customer/partner facing apps)
-* Introduction of Kafka and Hadoop technologies for data processing
-* Introduction of OpenBMP and RPKI validators to aid troubleshooting/leak prevention
-* Development of Ansible based configuration management with integration into existing data sources
-* Automation of manual processes (lab router firmware version changes, dashboard creation, route filter management etc)
-* First internal team to have IPv6 enabled management for all devices
-* Improvements to the GeoDNS backend including EDNS0 support
+* Assisting with events in the associated diving club
+* Providing surface/diver support during technical dives
+* Acting as a certified assistant during technical training
+* Providing in-water assistance for local events
 
-As an extension to this role, I also provided design/engineering support to and act as an escalation point for BookingGo (Rentalcars.com) teams on an ad-hoc basis, including on the integration of infrastructure.
+$\columnbreak$
 
-### TravelJigsaw Limited (Rentalcars.com) - Principal Security Engineer
-*November 2015 - September 2016*
+## Fastly\vspace{-5px}
+### Senior Network Engineer\vspace{-5px}
+*2018 - 2021*\vspace{-5px}
 
-Focused on improving all technical aspects of the security landscape.
+Fastly is a leading cloud computing services provider.
 
-Worked closely with Legal, Finance, Technology and Security teams in the business to deliver security objectives.
+As part of the Network Reliability Team, I worked on multiple cross-functional projects,
+delivering complex technical solutions powering world-leading customers.
 
-Several large undertakings were completed successfully including:
+During this time, the company completed an IPO and more than tripled its global capacity.
 
-* Achieving a ~65% reduction in external-facing vulnerabilities while observing a ~44% increase in assets
-* Deploying an internal certificate authority and root certificates (ca-bundle + JKS files) to 800+ servers
-* Developing tooling in Puppet for firewall rule management and deployed a restrictive rule-set
-* Deploying OpenLDAP using SSSD & pam_access to 800+ servers for centralised authentication and access control
-* Built tooling around Nexpose, Serverspec & Test Kitchen for integration into CI pipelines
-* Implementing internal vulnerability scanning of ~2000 assets
-* Developing CSP/HPKP functionality and servlet filters for external-facing applications, including reporting functionality to assess the impact of policy/filter changes
-* Developing tooling for automated server patching (including staged rollouts + reporting)
-* Developing tooling for rotating encryption keys on 10+ million data entries in a fast and minimally impactful manner
-* Deploying a horizontally scalable (Anycast + Resilient ECMP based) load balancing implementation using HAProxy to support migrating all external traffic to use TLS
-* Provided expert support to other teams in the business, ensuring their designs were both secure and scalable
+Key customers included FOX Sports/CBS interactive (Super Bowl), ByteDance (TikTok), Amazon.com, BAMTech (Disney+), Sony IE (PlayStation network), Paypal & Spotify.
 
-More day to day operational items included:
+## Booking.com\vspace{-5px}
+### Network Engineer\vspace{-5px}
+*2016 - 2018*\vspace{-5px}
 
-* Introducing hiera-eyaml (using the GPG backend) and node_encrypt into Puppet (3.x), for improved configuration secrets handling
-* Deploying SELinux in targeted mode to all 'critical infrastructure' (including in PCI/PII zones and core infrastructure)
-* Developing security tooling with appropriate access controls for common activities such as managing OSSEC alerts, reporting on user access and changing on-call settings
-* Developing Python tooling for handling inventory changes in 'black box' security appliances
-* Performing reviews on proposed solutions and technical aspects of legal contracts
-* Providing security on-call coverage
-* Standardising firewall rules across multiple Juniper SRX clusters
-* Working with external and internal auditors to improve controls and ensure (SoX, PCI DSS, DPA, Privacy Shield) compliance
-* Developing abstractions in Puppet for managing pam_access and sudo (group) based access rules, with inheritance
-* Drafting a roadmap and key milestones for security enhancements
+Booking.com is a leading online travel agency.
 
-### TravelJigsaw Limited (Rentalcars.com) - Technical Architect
-*June 2015 - November 2015*
+As part of the Internet Team, I worked on delivering internet connectivity for 18k+ internal colleagues,
+as well as infrastructure serving 1.5+ million bookings per day.
 
-As a founding member of the architecture team, my initial focus was a review of the core systems, potential contention/failure points and a roadmap for core infrastructure.
+During this time, there was a complete hardware refresh with numerous tooling initiatives.
 
-The work was varied and included documenting existing systems, interviewing candidates for multiple roles, providing expert support during service issues/solution design, building software prototypes, working with the teams to establish standards and designing new solutions.
+Both day-to-day operations & key infrastructure upgrades required significant collaboration with other internal teams,
+delivering significant capacity & performance improvements to an aggressively growing business.
 
-As the only infrastructure-focused member of the team, a lot of alignment and collaboration with the 2 software architects was undertaken during this time.
+\End{multicols}
 
-Some key solutions that were designed and placed into production included:
+\newpage
 
-* Internet connectivity, resolving redundancy issues and providing future scalability; this established the first ASN and IP space directly held by the company
-* AWS direct connect for hybrid (test/development) environments; a successful PoC, now supporting multiple teams and production services
-* 'Event backbone' using Apache Flume and Kafka with custom consumers written in Java; a successful PoC handling millions of events a minute. This is now the standard way to transmit/consume events within the company and has a diverse set of backends (ElasticSearch, MySQL, AppDynamics, HDFS etc)
+# Diving experience
 
-Other outcomes included:
+Over the last four years, I have logged more than 300 dives across multiple countries
+ranging from beautiful tropical & sub-tropical destinations including Thailand, Mexico, Egypt & Tenerife,
+to the cooler northern climates, including Iceland, Germany & the Netherlands.
 
-* An 18-month roadmap/improvement plan for the network
-* Numerous risks identified within the technology landscape and prioritised for resolution with the engineering teams
-* Implementation of Bamboo for CI, including multiple example jobs and Java-based plugins
-* Implementation of Artifactory Pro for internal binary sharing (integrated into Bamboo and internal deployment systems)
-* Updated design for a multistage Clos architecture within the data centres, with the budget accepted
+The wide range of diving locations & opportunities has enabled me to advance
+my skills & knowledge, achieving many certifications along the way
+including Tec Rec & professional ratings.
 
-### TravelJigsaw Limited (Rentalcars.com) - Linux Systems Administrator
-*February 2014 - June 2015*
+After assisting with more than 150 students & personally certifying more than 30,
+one of the best rewards is watching others grow, achieve new things & have their own experiences.
 
-Working in a team of 3 DBAs, 3 Sysadmins and a Network operations engineer scaling out and managing the 1k+ of servers that make up the Rentalcars.com infrastructure.
+With northern Europe offering cold water diving all year,
+I have significant experience with diving & managing students in challenging conditions,
+including dark/turbid waters & extensive dry-suit diving.
 
-* Managed/deployed a heterogeneous infrastructure consisting of bare metal rack mount and blade servers (HP/Dell) alongside VMWare ESX, KVM, Docker and EC2 based instances
-* Refactored a Puppet 2.x setup into a Puppet 3.x setup using the latest language standards and
-the principle of state convergence on the first run
-* Supported the internal tools written in Python/Ruby, including the Django-based asset management tool
-* Provided out of hours support to the business via an on-call rota
-* Introduced CI to operations for RPM builds and Puppet testing
-* Deployed anti-virus scanning and DKIM signing of outbound messages using Exim routers to ensure external-facing email meets validation/verification levels requested by the business
-* Developed multiple Fabric scripts for real-time auditing and remediation of servers (firmware versions, log file cleanup etc)
-* Worked closely with development teams to test new software and build a path to production
-* Developed kickstart files and custom initrd files for hardware installation (including automated firmware updates)
-* Developed acceptance tests for hardware using PyUnit and Fabric
+# Current certifications
 
-A part of this role involved building the initial infrastructure for Car+Driver (Rideways.com); a startup within the company.
-This was accomplished using:
+\Begin{multicols}{2}
 
-* AWS EC2/S3/RDS/Cloudfront/Cloudformation/ElastiCache
-* Python (troposphere) based CloudFormation generation
-* Python (boto) based deployment scripts, for CloudFormation and CodeDeploy
-* Packer + Puppet (masterless) based AMI creation
-* Github + Bamboo for CI/CD
+### PADI core ratings
 
-### MUSIC Group - Software Engineer (Midas/Klark Teknik R&D)
-*July 2013 - February 2014*
+* Divemaster
+* Open Water Scuba Instructor
+* Master Scuba Diver Trainer
 
-### MUSIC Group - Systems Engineer (Global Enterprise Engineering)
-*October 2012 - July 2013*
+### PADI TecRec ratings
 
-### Sub 6 Limited - Lead Systems Administrator
-*October 2011 - August 2012*
+* Tec Rec Trimix Blender Instructor
+* Tec Rec Deep Diver (certified assistant)
+* Tec Rec Trimix Diver (certified assistant)
 
-### Various - Contract Systems Administrator
-*October 2010 - October 2011*
+### EFR ratings
 
-Volunteering experience
------------------------
-### Scuba Education Amsterdam - Staff / PADI instructor
-*2018 - Present*
+* EFR Instructor
+* Care for Children w/AED Instructor
 
-* Provide in-classroom and in-water training to students at multiple levels
-* Operation of the filling station & equipment servicing/management
-* PADI member & certified instructor in more than 15 areas
+\Begin{vfill}{}\End{vfill}
+$\columnbreak$
 
-### ClueBot NG - Maintainer
-*2012 - Present*
+### PADI speciality ratings
 
-* Heavily used anti-vandalism Wikipedia bot with over 5.7 million edits
-* Monitor ClueBot NG to ensure active reversion of vandalism
-* Perform code fixes and improvements to reduce errors
+* Peak Performance Buoyancy Instructor
+* Project Aware Instructor
+* AWARE Coral Reef Conservation Sp Instructor
+* Deep Instructor
+* Enriched Air Instructor
+* Drift Instructor
+* Dry Suit Instructor
+* Night Diver Instructor
+* Underwater Navigator Instructor
+* Search & Recovery Instructor
+* Diver Propulsion Vehicle Instructor
+* Wreck Instructor
+* Self-Reliant Instructor
 
-### FOSDEM - volunteer
-*January 31st 2014 - 2nd February 2014*,
-*January 29th 2016 - 31st January 2016*,
-*February 2nd 2018 - 4th February 2018*
+\End{multicols}
 
-### The Scout Association - Assistant Scout Leader / Climbing Instructor
-*December 2006 - January 2014*
+\vspace{-20px}
+### Yacht training/certifications
 
-Misc
-----
-* UK passport holder
-* NL driving license
-* NL resident
+* Shorebased RYA/MCA Day Skipper for Sail & Power Craft
+* Shorebased RYA/MCA Coastal Skipper & Yachtmaster Offshore
+* RYA Competent Crew
 
-See Also
---------
-* [GitHub](https://github.com/damianzaremba) - damianzaremba
-* [LinkedIn](http://uk.linkedin.com/in/damianzaremba) - damianzaremba
-* [Website](http://damianzaremba.co.uk) - damianzaremba.co.uk
+### Additional training
+
+* Human factors in diving: the essentials
+
+# Additional information
+
+\Begin{multicols}{2}
+
+### Insurance
+
+* DAN Pro PADI dive accident insurance
+* DAN Pro PADI liability insurance
+* Personal health insurance (CZ)
+
+### Miscellaneous
+
+* Netherlands company registration
+* Own equipment (recreational, technical & mCCR)
+* Renewed 2021 instructor
+
+### Travel
+
+* United Kingdom passport
+* Netherlands (EU) residence permit (unrestricted)
+* Netherlands (EU) driving license (AM/B/T)
+
+### Contact
+
+* Email: [damian@divewithdamian.eu](mailto:damian@divewithdamian.eu)
+* Whatsapp: [+31 6 829 62098](https://wa.me/0031682962098)
+
+\End{multicols}
