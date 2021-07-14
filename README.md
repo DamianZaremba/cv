@@ -121,19 +121,18 @@ including dark/turbid waters & extensive dry-suit diving.
 
 \Begin{multicols}{2}
 
-### PADI core ratings
+### PADI core credentials
 
-* Divemaster
-* Open Water Scuba Instructor
 * Master Scuba Diver Trainer
+* Open Water Scuba Instructor
+* Divemaster
 
-### PADI TecRec ratings
+### PADI TecRec credentials
 
 * Tec Rec Trimix Blender Instructor
 * Tec Rec Deep Diver (certified assistant)
-* Tec Rec Trimix Diver (certified assistant)
 
-### EFR ratings
+### EFR credentials
 
 * EFR Instructor
 * Care for Children w/AED Instructor
@@ -141,21 +140,23 @@ including dark/turbid waters & extensive dry-suit diving.
 \Begin{vfill}{}\End{vfill}
 $\columnbreak$
 
-### PADI speciality ratings
+### PADI speciality credentials
 
+* Enriched Air Instructor
+* Deep Instructor
+* Night Diver Instructor
+* Drift Instructor
+* Dry Suit Instructor
+* Boat Instructor
+* Diver Propulsion Vehicle Instructor
+* Underwater Navigator Instructor
+* Search & Recovery Instructor
+* Delayed Surface Marker Buoy Instructor
+* Wreck Instructor
+* Self-Reliant Instructor
 * Peak Performance Buoyancy Instructor
 * Project Aware Instructor
 * AWARE Coral Reef Conservation Sp Instructor
-* Deep Instructor
-* Enriched Air Instructor
-* Drift Instructor
-* Dry Suit Instructor
-* Night Diver Instructor
-* Underwater Navigator Instructor
-* Search & Recovery Instructor
-* Diver Propulsion Vehicle Instructor
-* Wreck Instructor
-* Self-Reliant Instructor
 
 \End{multicols}
 
