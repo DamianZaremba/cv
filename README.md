@@ -161,7 +161,7 @@ $\columnbreak$
 \End{multicols}
 
 \vspace{-20px}
-### Yacht training/certifications
+### Yacht certifications
 
 * Shorebased RYA/MCA Day Skipper for Sail & Power Craft
 * Shorebased RYA/MCA Coastal Skipper & Yachtmaster Offshore
