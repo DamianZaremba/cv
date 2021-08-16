@@ -166,6 +166,7 @@ $\columnbreak$
 * Shorebased RYA/MCA Day Skipper for Sail & Power Craft
 * Shorebased RYA/MCA Coastal Skipper & Yachtmaster Offshore
 * RYA Competent Crew
+* RYA Level 2 Powerboat Handling
 
 ### Additional training
 
