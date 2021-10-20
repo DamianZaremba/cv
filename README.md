@@ -131,7 +131,7 @@ including dark/turbid waters & extensive dry-suit diving.
 ### PADI TecRec credentials
 
 * Tec Rec Trimix Blender Instructor
-* Tec Rec Deep Diver (certified assistant)
+* Tec 65 (certified assistant)
 
 ### EFR credentials
 
