@@ -123,6 +123,7 @@ including dark/turbid waters & extensive dry-suit diving.
 
 ### PADI core credentials
 
+* IDC Staff Instructor
 * Master Scuba Diver Trainer
 * Open Water Scuba Instructor
 * Divemaster
