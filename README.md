@@ -188,7 +188,7 @@ $\columnbreak$
 
 * Netherlands company registration
 * Own equipment (recreational, technical & mCCR)
-* Renewed 2021 instructor
+* Renewed 2022 instructor
 
 ### Travel
 
