@@ -193,7 +193,7 @@ $\columnbreak$
 ### Travel
 
 * United Kingdom passport
-* Netherlands (EU) residence permit (unrestricted)
+* Netherlands (EU) permanent residence (unrestricted)
 * Netherlands (EU) driving license (AM/B/T)
 
 ### Contact
