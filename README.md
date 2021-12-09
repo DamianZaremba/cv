@@ -15,14 +15,13 @@ header-includes:
 
 I am an experienced professional with a background in IT systems/network engineering & PADI/TecRec/EFR training.
 
-Previously I have been a climbing instructor for the scout association, maintainer of anti-vandalism services for Wikipedia,
-a volunteer at conferences & a business owner.
+Previously I have been a climbing instructor for the scout association, maintainer of anti-vandalism services for Wikipedia, a volunteer at conferences & a business owner.
 
 In addition, I have worked on infrastructure for organisations ranging from lean start-ups to multi-billion dollar public companies.
 
 My curious nature & desire for knowledge results in ongoing learning & advancement of existing ratings, incrementally improving my valuable skillset.
 
-I am currently looking for a PADI 5-star centre with IDC/Tec Rec accreditation that can support taking my professional diving to the next level.
+I am currently looking for a PADI 5-star centre with IDC/TecRec accreditation that can support taking my professional diving to the next level.
 
 \End{multicols}
 
@@ -42,17 +41,14 @@ Starting as a Divemaster candidate, I became intimately familiar with the centre
 
 After achieving my Divemaster rating, I stepped up as the right-hand man, taking on direct responsibilities for the day-to-day running of the dive centre.
 
-Since achieving my instructor ratings, I provide in-classroom & in-water training for PADI/TecRec/EFR courses.
+Since achieving my instructor ratings, I provide training for a large selection of PADI/TecRec/EFR courses.
 
 General responsibilities include:
 
-* Opening/closing of the dive centre
-* Greeting/orientating new students
 * Operation of the filling station
 * Equipment repair/servicing
 * Organisation of student training
-* Management of staff (DM/AI)
-* Reviewing/remediating theoretics
+* Course planning/management of staff (DM/AI/OWSI)
 * Delivery of knowledge development material
 * Preparation of classroom/pool for training
 * Organisation & transportation of equipment
@@ -64,8 +60,8 @@ Additional responsibilities include:
 
 * Assisting with events in the associated diving club
 * Providing surface/diver support during technical dives
-* Acting as a certified assistant during technical training
-* Providing in-water assistance for local events
+* Acting as a certified assistant during technical diver training
+* Providing in-water supervision for local events
 
 $\columnbreak$
 
@@ -102,15 +98,15 @@ delivering significant capacity & performance improvements to an aggressively gr
 
 # Diving experience
 
-Over the last four years, I have logged more than 300 dives across multiple countries
+Over the last four years, I have logged more than 500 dives across multiple countries
 ranging from beautiful tropical & sub-tropical destinations including Thailand, Mexico, Egypt & Tenerife,
 to the cooler northern climates, including Iceland, Germany & the Netherlands.
 
 The wide range of diving locations & opportunities has enabled me to advance
 my skills & knowledge, achieving many certifications along the way
-including Tec Rec & professional ratings.
+including TecRec & professional ratings.
 
-After assisting with more than 150 students & personally certifying more than 30,
+After assisting with more than 150 students & personally instructing more than 200,
 one of the best rewards is watching others grow, achieve new things & have their own experiences.
 
 With northern Europe offering cold water diving all year,
@@ -121,22 +117,30 @@ including dark/turbid waters & extensive dry-suit diving.
 
 \Begin{multicols}{2}
 
-### PADI core credentials
+### PADI credentials
 
 * IDC Staff Instructor
 * Master Scuba Diver Trainer
 * Open Water Scuba Instructor
 * Divemaster
 
-### PADI TecRec credentials
+### TecRec credentials
 
 * Tec Rec Trimix Blender Instructor
-* Tec 65 (certified assistant)
+* Tec Rec Deep (certified assistant)
 
 ### EFR credentials
 
 * EFR Instructor
 * Care for Children w/AED Instructor
+
+### Yacht certifications
+
+* Marine Radio Short Range Certificate (CoC)
+* RYA Powerboat Level 2 (ICC inland/coastal)
+* RYA Competent Crew
+* Yachtmaster Shorebased Certificate
+* Day Skipper Shorebased Certificate
 
 \Begin{vfill}{}\End{vfill}
 $\columnbreak$
@@ -145,34 +149,33 @@ $\columnbreak$
 
 * Enriched Air Instructor
 * Deep Instructor
+* Wreck Instructor
+* Digital Underwater Photography Instructor
 * Night Diver Instructor
+* Boat Instructor
+* Delayed Surface Marker Buoy Instructor
 * Drift Instructor
 * Dry Suit Instructor
-* Boat Instructor
+* Emergency Oxygen Provider Instructor
 * Diver Propulsion Vehicle Instructor
 * Underwater Navigator Instructor
 * Search & Recovery Instructor
-* Delayed Surface Marker Buoy Instructor
-* Wreck Instructor
+* Equipment Specialist Instructor
 * Self-Reliant Instructor
+* Fish Identification Instructor
 * Peak Performance Buoyancy Instructor
 * Project Aware Instructor
 * AWARE Coral Reef Conservation Sp Instructor
 
+### Additional training
+
+* DSAT Tec Deep Instructor Training Course
+* Human factors in diving: the essentials
+* Green Fins Dive Guide
+
 \End{multicols}
 
 \vspace{-20px}
-### Yacht certifications
-
-* Shorebased RYA/MCA Day Skipper for Sail & Power Craft
-* Shorebased RYA/MCA Coastal Skipper & Yachtmaster Offshore
-* RYA Competent Crew
-* RYA Powerboat Level 2 (ICC)
-* Marine Radio Short Range Certificate (CoC)
-
-### Additional training
-
-* Human factors in diving: the essentials
 
 # Additional information
 
