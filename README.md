@@ -139,6 +139,7 @@ including dark/turbid waters & extensive dry-suit diving.
 * Marine Radio Short Range Certificate (CoC)
 * RYA Powerboat Level 2 (ICC inland/coastal)
 * RYA Competent Crew
+* RYA Professional Practices and Responsibilities
 * Yachtmaster Shorebased Certificate
 * Day Skipper Shorebased Certificate
 
