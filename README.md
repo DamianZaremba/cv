@@ -126,21 +126,23 @@ including dark/turbid waters & extensive dry-suit diving.
 
 ### TecRec credentials
 
+* Tec Rec Deep Instructor
 * Tec Rec Trimix Blender Instructor
-* Tec Rec Deep (certified assistant)
 
 ### EFR credentials
 
+* EFR Trainer
+* Care For Children Trainer
 * EFR Instructor
 * Care for Children w/AED Instructor
 
 ### Yacht certifications
 
 * Marine Radio Short Range Certificate (CoC)
-* RYA Powerboat Level 2 (ICC inland/coastal)
+* RYA Powerboat Level 2
+* RYA Coastal Skipper
 * RYA Competent Crew
 * RYA Professional Practices and Responsibilities
-* Yachtmaster Shorebased Certificate
 * Day Skipper Shorebased Certificate
 
 \Begin{vfill}{}\End{vfill}
@@ -162,6 +164,7 @@ $\columnbreak$
 * Underwater Navigator Instructor
 * Search & Recovery Instructor
 * Equipment Specialist Instructor
+* Adaptive Techniques Specialty Instructor
 * Self-Reliant Instructor
 * Fish Identification Instructor
 * Peak Performance Buoyancy Instructor
@@ -170,7 +173,6 @@ $\columnbreak$
 
 ### Additional training
 
-* DSAT Tec Deep Instructor Training Course
 * Human factors in diving: the essentials
 * Green Fins Dive Guide
 
@@ -197,8 +199,8 @@ $\columnbreak$
 ### Travel
 
 * United Kingdom passport
-* Netherlands (EU) permanent residence (unrestricted)
-* Netherlands (EU) driving license (AM/B/T)
+* Netherlands permanent residence (unrestricted)
+* Netherlands driving license (AM/B/T)
 
 ### Contact
 
