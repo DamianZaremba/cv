@@ -139,10 +139,10 @@ including dark/turbid waters & extensive dry-suit diving.
 ### Yacht certifications
 
 * Marine Radio Short Range Certificate (CoC)
+* RYA/MCA Yachtmaster Offshore (CoC)
 * RYA Powerboat Level 2
 * RYA Coastal Skipper
 * RYA Competent Crew
-* RYA Professional Practices and Responsibilities
 * Day Skipper Shorebased Certificate
 
 \Begin{vfill}{}\End{vfill}
