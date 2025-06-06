@@ -2,209 +2,212 @@
 papersize: a4
 geometry: margin=0.5in
 header-includes:
-  - \usepackage{multicol}
-  - \setlength{\columnsep}{0.3in}
-  - \newcommand{\hideFromPandoc}[1]{#1}\hideFromPandoc{\let\Begin\begin\let\End\end}
   - \pagenumbering{gobble}
+  - \setlength{\columnsep}{0.3in}
+  - \usepackage{enumitem}
+  - \setlist[itemize]{left=0pt, labelsep=0.5em}
+  - \usepackage{multicol}
+  - \newcommand{\hideFromPandoc}[1]{#1}
+  - \hideFromPandoc{
+    \let\Begin\begin
+    \let\End\end
+    }
+  - \usepackage{paracol}
 ---
 # Damian Zaremba
 
 \Begin{multicols}{2}
 
-![](damian.jpeg){width=300px}
+![](damian.jpeg){width=200px}
 
-I am an experienced professional with a background in IT systems/network engineering & PADI/TecRec/EFR training.
+I am a passionate RYA Yachtmaster Instructor (sail) with a track record of delivering high-quality training.
 
-Previously I have been a climbing instructor for the scout association, maintainer of anti-vandalism services for Wikipedia, a volunteer at conferences & a business owner.
+Having worked within the same sailing area for a couple of years I am seeking new opportunities as an instructor and master.
 
-In addition, I have worked on infrastructure for organisations ranging from lean start-ups to multi-billion dollar public companies.
-
-My curious nature & desire for knowledge results in ongoing learning & advancement of existing ratings, incrementally improving my valuable skillset.
-
-I am currently looking for a PADI 5-star centre with IDC/TecRec accreditation that can support taking my professional diving to the next level.
+Nationality: British, Resident: Netherlands, Languages: English (Native), Netherlands (A2)
+Email: [damian@sailingwithdamian.eu](mailto:damian@sailingwithdamian.eu), Phone: [+31 6829 62098](tel:0031682962098)
 
 \End{multicols}
 
-\vspace{-20px}
-
-# Work Experience
-
 \Begin{multicols}{2}
 
-## Scuba Education Amsterdam\vspace{-5px}
-### Staff / Divemaster / Instructor\vspace{-5px}
-*2018 - present*\vspace{-5px}
+## Certificates
 
-SEA is a busy 5-star PADI resort & PADI TecRec centre located in Amsterdam, the Netherlands.
-
-Starting as a Divemaster candidate, I became intimately familiar with the centre operations throughout my internship.
-
-After achieving my Divemaster rating, I stepped up as the right-hand man, taking on direct responsibilities for the day-to-day running of the dive centre.
-
-Since achieving my instructor ratings, I provide training for a large selection of PADI/TecRec/EFR courses.
-
-General responsibilities include:
-
-* Operation of the filling station
-* Equipment repair/servicing
-* Organisation of student training
-* Course planning/management of staff (DM/AI/OWSI)
-* Delivery of knowledge development material
-* Preparation of classroom/pool for training
-* Organisation & transportation of equipment
-* In-water teaching, evaluation & supervision
-* PADI & internal paperwork completion & review
-* Issuing certifications via PIC online
-
-Additional responsibilities include:
-
-* Assisting with events in the associated diving club
-* Providing surface/diver support during technical dives
-* Acting as a certified assistant during technical diver training
-* Providing in-water supervision for local events
+- Yachtmaster Instructor for Sail (april 2028)
+- Commercially endorsed Powerboat Level 2 & Yachtmaster Offshore (aug 2027)
+- STCW Elementary First Aid (may 2027)
+- STCW Personal Survival Techniques (july 2027)
+- ENG1 (aug 2026)
+- RYA diesel engine, RADAR, DS/YM shorebased
 
 $\columnbreak$
 
-## Fastly\vspace{-5px}
-### Senior Network Engineer\vspace{-5px}
-*2018 - 2021*\vspace{-5px}
+## On the water experience
 
-Fastly is a leading cloud computing services provider.
+- ~15k nm (sail) since 2017, mostly in tidal waters
+- ~6k nm single-handed (sail), mix of coastal and multi-day offshore/ocean passages
+- \> 300 days seagoing service (~6k nm)
+- \> 100 RYA certificates issued
+- \> 20 exam candidate passes (vast majority at offshore level)
 
-As part of the Network Reliability Team, I worked on multiple cross-functional projects,
-delivering complex technical solutions powering world-leading customers.
+\End{multicols}
 
-During this time, the company completed an IPO and more than tripled its global capacity.
+\vspace{-35px}
+## Technical experience
 
-Key customers included FOX Sports/CBS interactive (Super Bowl), ByteDance (TikTok), Amazon.com, BAMTech (Disney+), Sony IE (PlayStation network), Paypal & Spotify.
+- Diesel engines (especially volvo D1/D2 series) troubleshooting & servicing
+- Navigational electronics (especially Raymarine), including NMEA 018/2000 (bridging/inter-op, decoding)
+- Electrical 12/240 volt systems including multi-bank systems and different charging/inverting/earthing arrangements
+- Rigging inspection/tuning (especially fractional/linked standing & running rigging)
+- Mechanical installation and inspection (e.g. steering linkage, motors, vane gear, stanchion/chain plate/deck joints)
+- General maintenance e.g. GRP repairs, thru-hull replacements, anti-fouling, whipping, splicing
 
-## Booking.com\vspace{-5px}
-### Network Engineer\vspace{-5px}
-*2016 - 2018*\vspace{-5px}
+\vspace{-10px}
+# Maritime Work Experience
+\vspace{-10px}
+\Begin{multicols}{2}
 
-Booking.com is a leading online travel agency.
+## Senior Yachtmaster Instructor\vspace{-5px}
+### Canary Sail SL\vspace{-5px}
+*April 2024 - April 2025*\vspace{-5px}
 
-As part of the Internet Team, I worked on delivering internet connectivity for 18k+ internal colleagues,
-as well as infrastructure serving 1.5+ million bookings per day.
+- Successfully completed 10 exam preparation weeks with a > 90% candidate success rate
+- Excellent feedback received from clients
+- Developed internal training material and supported the growth of new instructors
 
-During this time, there was a complete hardware refresh with numerous tooling initiatives.
+$\columnbreak$
 
-Both day-to-day operations & key infrastructure upgrades required significant collaboration with other internal teams,
-delivering significant capacity & performance improvements to an aggressively growing business.
+## Yachtmaster Instructor\vspace{-5px}
+### Canary Sail SL\vspace{-5px}
+*April 2023 - April 2024*\vspace{-5px}
+
+- Delivered high quality training, focusing on RYA Coastal Skipper and (pre-exam) skill development
+- Produced internal training material (pole tri-angulation, storm-sail rigging, practical radar demonstrations etc)
+- Handled numerous technical issues with a safety focus
+
+\End{multicols}
+\vspace{-15px}
+\Begin{multicols}{2}
+
+## Freelance Skipper\vspace{-5px}
+### Various\vspace{-5px}
+*August 2022 - present*\vspace{-5px}
+
+- RIB operations (primarily scuba diving)
+- Boat delivery/relocation
+- Boat care (including organisation of maintenance & delivery to/from hard standing)
+
+$\columnbreak$
+
+## Cruising Instructor\vspace{-5px}
+### Canary Sail SL\vspace{-5px}
+*December 2022 - April 2023*\vspace{-5px}
+
+- Worked on average 3 (6 day) weeks per month deliverying RYA Day Skipper/Competent Crew & skill development weeks
+- Strong emphasis on safety, delivering detailed feedback on defects
+- Consistent positive feedback from clients
+
+\End{multicols}
+
+\vspace{-30px}
+# Other Work Experience
+\vspace{-10px}
+\Begin{multicols}{2}
+
+## Diving/First Aid Instructor\vspace{-5px}
+### Freelance\vspace{-5px}
+*October 2020 - present*\vspace{-5px}
+
+- Hold IDC Staff/Tec Rec Deep Instructor & Emergency First Response Instructor Trainer ratings
+- Successfully completed 5 Instructor Development Courses & achieved 20+ speciality instructor ratings.
+- 500+ dives including cold water dry suit (NL/DE), tropical (TH/MX) & technical (ES/EG)
+
+$\columnbreak$
+
+## Systems/Network Engineer\vspace{-5px}
+### Freelance/Contract\vspace{-5px}
+*October 2018 - present*\vspace{-5px}
+
+- Reduced operational overhead through tooling and process improvements
+- Developed technical designs to meet business requirements
+- Improved performance and redundancy of solutions
 
 \End{multicols}
 
 \newpage
 
-# Diving experience
-
-Over the last four years, I have logged more than 500 dives across multiple countries
-ranging from beautiful tropical & sub-tropical destinations including Thailand, Mexico, Egypt & Tenerife,
-to the cooler northern climates, including Iceland, Germany & the Netherlands.
-
-The wide range of diving locations & opportunities has enabled me to advance
-my skills & knowledge, achieving many certifications along the way
-including TecRec & professional ratings.
-
-After assisting with more than 150 students & personally instructing more than 200,
-one of the best rewards is watching others grow, achieve new things & have their own experiences.
-
-With northern Europe offering cold water diving all year,
-I have significant experience with diving & managing students in challenging conditions,
-including dark/turbid waters & extensive dry-suit diving.
-
-# Current certifications
-
 \Begin{multicols}{2}
 
-### PADI credentials
+Prior to 2016 I have held numerous technology related positions including
 
-* IDC Staff Instructor
-* Master Scuba Diver Trainer
-* Open Water Scuba Instructor
-* Divemaster
+- Network Engineer
+- Principal Security Engineer
+- Technical Architect
+- (Senior/Lead) Systems Engineer/Administrator
+- Software Engineer/Developer
 
-### TecRec credentials
-
-* Tec Rec Deep Instructor
-* Tec Rec Trimix Blender Instructor
-
-### EFR credentials
-
-* EFR Trainer
-* Care For Children Trainer
-* EFR Instructor
-* Care for Children w/AED Instructor
-
-### Yacht certifications
-
-* Marine Radio Short Range Certificate (CoC)
-* RYA/MCA Yachtmaster Offshore (CoC)
-* RYA Powerboat Level 2
-* RYA Coastal Skipper
-* RYA Competent Crew
-* Day Skipper Shorebased Certificate
-
-\Begin{vfill}{}\End{vfill}
 $\columnbreak$
 
-### PADI speciality credentials
+I have also held numerous volunteer positions including
 
-* Enriched Air Instructor
-* Deep Instructor
-* Wreck Instructor
-* Digital Underwater Photography Instructor
-* Night Diver Instructor
-* Boat Instructor
-* Delayed Surface Marker Buoy Instructor
-* Drift Instructor
-* Dry Suit Instructor
-* Emergency Oxygen Provider Instructor
-* Diver Propulsion Vehicle Instructor
-* Underwater Navigator Instructor
-* Search & Recovery Instructor
-* Equipment Specialist Instructor
-* Adaptive Techniques Specialty Instructor
-* Self-Reliant Instructor
-* Fish Identification Instructor
-* Peak Performance Buoyancy Instructor
-* Project Aware Instructor
-* AWARE Coral Reef Conservation Sp Instructor
-
-### Additional training
-
-* Human factors in diving: the essentials
-* Green Fins Dive Guide
+- General / Video volunteer - FOSDEM
+- Assistant Scout Leader / Climbing Instructor - Scout Association
+- Council member - ClueNet
 
 \End{multicols}
 
-\vspace{-20px}
+\vspace{-30px}
+# My sailing background
 
-# Additional information
+While I started out in the mid 2000s with dinghy sailing in the UK, it wasn't until after moving to the Netherlands in 2016 opportunities to sail yachts aligned with my interest.
 
-\Begin{multicols}{2}
+Between 2017 and 2021 I managed to sail around 3k miles, mostly on short casual trips around the inland and coastal waters of the Netherlands.
 
-### Insurance
+With a plan to have a break from IT (having just completed an IPO combined with COVID-19 related growth/restrictions), I started down the RYA path gaining CC/PB2/SRC & DS shorebased as the first step.
 
-* DAN Pro PADI dive accident insurance
-* DAN Pro PADI liability insurance
-* Personal health insurance (CZ)
+In late 2021 - upon ending a contract - I managed to purchase my own boat and started sailing longer distances, with an initial 'year off' plan, mostly building experience through mistakes and occasional courses.
 
-### Miscellaneous
+After sailing another ~5k miles down europe, diving into all aspects of maintenance, theory, planning and general boat life, I ticked off CS & YM shorebased.
 
-* Netherlands company registration
-* Own equipment (recreational, technical & mCCR)
-* Renewed 2022 instructor
+With a view to keeping my own skills fresh, furthur diversity income and a job opportunity on the table, I passed the YMO and CI courses, starting to work and improve as an instructor.
 
-### Travel
+Definitely and un-planned and somewhat unconventional route!
 
-* United Kingdom passport
-* Netherlands permanent residence (unrestricted)
-* Netherlands driving license (AM/B/T)
+# "Notable" passages
 
-### Contact
+### 2021 / 2022
 
-* Email: [damian@divewithdamian.eu](mailto:damian@divewithdamian.eu)
-* Whatsapp: [+31 6 829 62098](https://wa.me/0031682962098)
+- Bruinisse (NL) -> Schiedam (NL) -> Amsterdam (NL) - Short handed, NL coast, delivery from broker - 
 
-\End{multicols}
+- Scheveningen (NL) -> Cherbourg (FR) - Single handed, english channel - 
+- Cherbourg (FR) -> Brest (FR) -> La Coruna (ES) - Single handed, winter biscay crossing - 
+- La Coruna (ES) -> Baiona (ES) -> Cascais (PT) - Single handed, EU coast - 
+- Cascais (PT) -> Maderia (PT) -> Tenerife (ES) - Single handed, ocean - 
+
+- General cruising along the European west coast
+- General cruising around the western Canary islands also working along the coast in RIBs for numerous diving centers.
+
+### 2023 / 2024
+
+Cruising and working in the Canary islands, covering numerous routes between the islands.
+
+Some favorite passages, a mixture of single/short handed and crewed:
+
+- Garachico (Tenerife) -> Santa Cruz La Palma -> Tazacorte (La Palma) -> Vueltas (La Gomera)
+- Rubicon (Lanzarote) -> Amarilla (Tenerife)
+- Las Palmas (Gran Canaria) -> Funchal (Maderia) -> Porto Santo -> Santa Cruz (Tenerife)
+- Anywhere -> La Graciosa
+
+### 2025
+
+- Tenerife (ES) -> La Palma (ES) -> Faial (PT) - Single handed, ocean, celestial
+- Terceira (PT) -> Cherbourg (FR) - Single handed, ocean, celestial
+- Cherbourg (FR) -> Scheveningen (NL)Single handed, english channel
+
+## A look forward to the future
+
+I am looking for an RTC operating year round, where I can continue to grow my own skills and deliver quality courses in a solid training area.
+
+
+
+x
