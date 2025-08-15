@@ -16,198 +16,136 @@ header-includes:
 ---
 # Damian Zaremba
 
-\Begin{multicols}{2}
-
-![](damian.jpeg){width=200px}
-
 I am a passionate RYA Yachtmaster Instructor (sail) with a track record of delivering high-quality training.
 
-Having worked within the same sailing area for a couple of years I am seeking new opportunities as an instructor and master.
+Having worked within the same sailing area for a couple of years, I am seeking new opportunities that allow me to keep my skills fresh and experience new challenges.
 
-Nationality: British, Resident: Netherlands, Languages: English (Native), Netherlands (A2)
-Email: [damian@sailingwithdamian.eu](mailto:damian@sailingwithdamian.eu), Phone: [+31 6829 62098](tel:0031682962098)
+I am a qualified diving instructor and first aid instructor trainer, with a professional background in IT.
 
-\End{multicols}
+\Begin{center}
+
+---
+
+Nationality: British    |    Permanent Resident: The Netherlands    |    Languages: English (Native), Netherlands (Beginner)
+
+Email: [damian@sailingwithdamian.eu](mailto:damian@sailingwithdamian.eu)    |    Phone: [+31 6829 62098](tel:0031682962098)
+
+\End{center}
+
+## Background
+
+I started sailing dinghies from 2004 until 2009, after moving to the Netherlands in 2016 I started sailing on yachts.
+
+In 2021 I decided to have a priority-change and purchased my own yacht, taking a break from IT.
+
+While working as a diving instructor, I decided to use my transferable teaching skills and become a cruising instructor.
+
+After an enjoyable season and being more involved in the RTC, I had a very enjoyable week in the solent and was rewarded with a yachtmaster instructor ticket.
+
+Within the RTC I have worked to streamline processes, ensuring visibility into key areas such as expiry dates and defects, with very positive feedback from the center inspector.
+
+Outside of teaching, I have also provided support during yacht maintenance, including electrical/electronic troubleshooting/modification, GRP/gel coat repairs and rigging checks/replacement.
 
 \Begin{multicols}{2}
 
 ## Certificates
 
-- Yachtmaster Instructor for Sail (april 2028)
-- Commercially endorsed Powerboat Level 2 & Yachtmaster Offshore (aug 2027)
-- STCW Elementary First Aid (may 2027)
-- STCW Personal Survival Techniques (july 2027)
-- ENG1 (aug 2026)
-- RYA diesel engine, RADAR, DS/YM shorebased
+- Yachtmaster Instructor for Sail (valid until 2028)
+- Commercially endorsed PB2 & Yachtmaster Offshore
+- STCW personal survival/basic first aid
+- ENG1
+- Food hygiene level 2
+- RYA Safe and Fun
+- RYA diesel engine, RADAR, DS/YM/Ocean shorebased
 
 $\columnbreak$
 
-## On the water experience
+## Experience summary
 
-- ~15k nm (sail) since 2017, mostly in tidal waters
-- ~6k nm single-handed (sail), mix of coastal and multi-day offshore/ocean passages
-- \> 300 days seagoing service (~6k nm)
-- \> 100 RYA certificates issued
-- \> 20 exam candidate passes (vast majority at offshore level)
+- Sailed ~14k nm since 2017
+- Single-handed ~6k nm with 3 ocean crossings since 2021
+- ~1700 nm (13 weeks) teaching as a CI
+- ~4500 nm (42 weeks) teaching as a YMI
+- \> 300 days sea going service - testimonial available
+- \> 100 certificates issued (~75% CC/DS, ~25% CS)
+- \> 20 YM exam candidates prepped (~95% pass rate)
 
 \End{multicols}
 
-\vspace{-35px}
-## Technical experience
-
-- Diesel engines (especially volvo D1/D2 series) troubleshooting & servicing
-- Navigational electronics (especially Raymarine), including NMEA 018/2000 (bridging/inter-op, decoding)
-- Electrical 12/240 volt systems including multi-bank systems and different charging/inverting/earthing arrangements
-- Rigging inspection/tuning (especially fractional/linked standing & running rigging)
-- Mechanical installation and inspection (e.g. steering linkage, motors, vane gear, stanchion/chain plate/deck joints)
-- General maintenance e.g. GRP repairs, thru-hull replacements, anti-fouling, whipping, splicing
+\vspace{-30px}
+Cruising areas: Netherlands/Wadden Sea, North Sea/Channel, Atlantic European Coast, Canary Islands, Madeira, Azores
 
 \vspace{-10px}
-# Maritime Work Experience
-\vspace{-10px}
+## Maritime work experience
+
+\vspace{-5px}
 \Begin{multicols}{2}
+**Senior Yachtmaster Instructor**\
+Canary Sail SL\
+_April 2024 - April 2025_
 
-## Senior Yachtmaster Instructor\vspace{-5px}
-### Canary Sail SL\vspace{-5px}
-*April 2024 - April 2025*\vspace{-5px}
-
-- Successfully completed 10 exam preparation weeks with a > 90% candidate success rate
-- Excellent feedback received from clients
-- Developed internal training material and supported the growth of new instructors
+- 1/3 YMIs allowed to do exam preparations
+- Only YMI actively doing preps outside the CI
 
 $\columnbreak$
 
-## Yachtmaster Instructor\vspace{-5px}
-### Canary Sail SL\vspace{-5px}
-*April 2023 - April 2024*\vspace{-5px}
+**Yachtmaster Instructor**\
+Canary Sail SL\
+_April 2023 - April 2024_
 
-- Delivered high quality training, focusing on RYA Coastal Skipper and (pre-exam) skill development
-- Produced internal training material (pole tri-angulation, storm-sail rigging, practical radar demonstrations etc)
-- Handled numerous technical issues with a safety focus
+- 60% conducting CS courses or skills weeks
+- 40% doing exam pre-preperation
 
 \End{multicols}
-\vspace{-15px}
+\vspace{-30px}
 \Begin{multicols}{2}
 
-## Freelance Skipper\vspace{-5px}
-### Various\vspace{-5px}
-*August 2022 - present*\vspace{-5px}
+**Freelance Skipper**\
+Various\
+_August 2022 - Present_
 
 - RIB operations (primarily scuba diving)
-- Boat delivery/relocation
-- Boat care (including organisation of maintenance & delivery to/from hard standing)
+- Boat delivery/relocation & maintenance
 
 $\columnbreak$
 
-## Cruising Instructor\vspace{-5px}
-### Canary Sail SL\vspace{-5px}
-*December 2022 - April 2023*\vspace{-5px}
+**Cruising Instructor**\
+Canary Sail SL\
+_December 2022 - April 2023_
 
-- Worked on average 3 (6 day) weeks per month deliverying RYA Day Skipper/Competent Crew & skill development weeks
-- Strong emphasis on safety, delivering detailed feedback on defects
-- Consistent positive feedback from clients
+- CC/DS courses
+- Mile building / skill weeks
 
 \End{multicols}
 
-\vspace{-30px}
-# Other Work Experience
-\vspace{-10px}
+\vspace{-25px}
 \Begin{multicols}{2}
+## Other work experience
 
-## Diving/First Aid Instructor\vspace{-5px}
-### Freelance\vspace{-5px}
-*October 2020 - present*\vspace{-5px}
+- IT Consultant (various)
+- Diving Instructor (various)
+- First Aid Instructor/Trainer (various)
+- Senior Network Engineer (Fastly) 2018 - 2021
+- Network Engineer (Booking.com) 2016 - 2018
+- Principal Security Engineer (Rentalcars.com) 2016
+- Technical Architect (Rentalcars.com) 2015
 
-- Hold IDC Staff/Tec Rec Deep Instructor & Emergency First Response Instructor Trainer ratings
-- Successfully completed 5 Instructor Development Courses & achieved 20+ speciality instructor ratings.
-- 500+ dives including cold water dry suit (NL/DE), tropical (TH/MX) & technical (ES/EG)
-
-$\columnbreak$
-
-## Systems/Network Engineer\vspace{-5px}
-### Freelance/Contract\vspace{-5px}
-*October 2018 - present*\vspace{-5px}
-
-- Reduced operational overhead through tooling and process improvements
-- Developed technical designs to meet business requirements
-- Improved performance and redundancy of solutions
-
-\End{multicols}
-
-\newpage
-
-\Begin{multicols}{2}
-
-Prior to 2016 I have held numerous technology related positions including
-
-- Network Engineer
-- Principal Security Engineer
-- Technical Architect
-- (Senior/Lead) Systems Engineer/Administrator
-- Software Engineer/Developer
+_Various other technology orientated positions held since 2008_
 
 $\columnbreak$
 
-I have also held numerous volunteer positions including
+## Future plans
 
-- General / Video volunteer - FOSDEM
-- Assistant Scout Leader / Climbing Instructor - Scout Association
-- Council member - ClueNet
+I'm looking to continue my own growth and value long term relationships built on trust and respect.
+
+My approach is detail oriented and safety conscious.
+
+I champion quality of delivery and avoiding dilution of credentials. 
+
+Additional qualifications I am open to / planning to obtain:
+
+* RYA Shorebased / SRC / RADAR instructor
+* Master 200gt (coded vessels) / OOW 500 (yacht)
+* Powerboat Instructor (possibly RYA YM/CI Motor)
 
 \End{multicols}
-
-\vspace{-30px}
-# My sailing background
-
-While I started out in the mid 2000s with dinghy sailing in the UK, it wasn't until after moving to the Netherlands in 2016 opportunities to sail yachts aligned with my interest.
-
-Between 2017 and 2021 I managed to sail around 3k miles, mostly on short casual trips around the inland and coastal waters of the Netherlands.
-
-With a plan to have a break from IT (having just completed an IPO combined with COVID-19 related growth/restrictions), I started down the RYA path gaining CC/PB2/SRC & DS shorebased as the first step.
-
-In late 2021 - upon ending a contract - I managed to purchase my own boat and started sailing longer distances, with an initial 'year off' plan, mostly building experience through mistakes and occasional courses.
-
-After sailing another ~5k miles down europe, diving into all aspects of maintenance, theory, planning and general boat life, I ticked off CS & YM shorebased.
-
-With a view to keeping my own skills fresh, furthur diversity income and a job opportunity on the table, I passed the YMO and CI courses, starting to work and improve as an instructor.
-
-Definitely and un-planned and somewhat unconventional route!
-
-# "Notable" passages
-
-### 2021 / 2022
-
-- Bruinisse (NL) -> Schiedam (NL) -> Amsterdam (NL) - Short handed, NL coast, delivery from broker - 
-
-- Scheveningen (NL) -> Cherbourg (FR) - Single handed, english channel - 
-- Cherbourg (FR) -> Brest (FR) -> La Coruna (ES) - Single handed, winter biscay crossing - 
-- La Coruna (ES) -> Baiona (ES) -> Cascais (PT) - Single handed, EU coast - 
-- Cascais (PT) -> Maderia (PT) -> Tenerife (ES) - Single handed, ocean - 
-
-- General cruising along the European west coast
-- General cruising around the western Canary islands also working along the coast in RIBs for numerous diving centers.
-
-### 2023 / 2024
-
-Cruising and working in the Canary islands, covering numerous routes between the islands.
-
-Some favorite passages, a mixture of single/short handed and crewed:
-
-- Garachico (Tenerife) -> Santa Cruz La Palma -> Tazacorte (La Palma) -> Vueltas (La Gomera)
-- Rubicon (Lanzarote) -> Amarilla (Tenerife)
-- Las Palmas (Gran Canaria) -> Funchal (Maderia) -> Porto Santo -> Santa Cruz (Tenerife)
-- Anywhere -> La Graciosa
-
-### 2025
-
-- Tenerife (ES) -> La Palma (ES) -> Faial (PT) - Single handed, ocean, celestial
-- Terceira (PT) -> Cherbourg (FR) - Single handed, ocean, celestial
-- Cherbourg (FR) -> Scheveningen (NL)Single handed, english channel
-
-## A look forward to the future
-
-I am looking for an RTC operating year round, where I can continue to grow my own skills and deliver quality courses in a solid training area.
-
-
-
-x
